@@ -1,0 +1,3 @@
+/home/luis/Hazel/Sandbox/build/CMakeFiles/rebuild_cache.dir
+/home/luis/Hazel/Sandbox/build/CMakeFiles/edit_cache.dir
+/home/luis/Hazel/Sandbox/build/CMakeFiles/SandboxApp.dir

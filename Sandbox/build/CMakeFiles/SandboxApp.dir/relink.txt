@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17   CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o  -o CMakeFiles/CMakeRelink.dir/SandboxApp /home/luis/Hazel/Hazel/lib/libHazel.so 

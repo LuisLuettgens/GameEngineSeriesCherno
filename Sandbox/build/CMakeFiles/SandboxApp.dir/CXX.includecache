@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luis/Hazel/Hazel/include/Hazel.h
+../src/Application.hpp
+/home/luis/Hazel/Hazel/src/Application.hpp
+../src/Log.hpp
+/home/luis/Hazel/Hazel/src/Log.hpp
+../src/EntryPoint.hpp
+/home/luis/Hazel/Hazel/src/EntryPoint.hpp
+
+/home/luis/Hazel/Hazel/src/Application.hpp
+Core.hpp
+/home/luis/Hazel/Hazel/src/Core.hpp
+
+/home/luis/Hazel/Hazel/src/Core.hpp
+
+/home/luis/Hazel/Hazel/src/EntryPoint.hpp
+
+/home/luis/Hazel/Hazel/src/Log.hpp
+Core.hpp
+/home/luis/Hazel/Hazel/src/Core.hpp
+spdlog/spdlog.h
+/home/luis/Hazel/Hazel/src/spdlog/spdlog.h
+
+/home/luis/Hazel/Sandbox/src/SandboxApp.cpp
+Hazel.h
+-
+

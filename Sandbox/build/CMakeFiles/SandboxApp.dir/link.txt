@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -ggdb   CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o  -o SandboxApp /home/luis/Hazel/Hazel/lib/libHazel.so -Wl,-rpath,/home/luis/Hazel/Hazel/lib 
