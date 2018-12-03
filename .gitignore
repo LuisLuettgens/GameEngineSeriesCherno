@@ -1,0 +1,3 @@
+# Directories excluded from the revision control
+*.o
+SandboxApp
