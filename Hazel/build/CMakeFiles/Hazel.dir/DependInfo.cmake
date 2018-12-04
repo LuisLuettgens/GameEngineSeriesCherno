@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/Hazel/Hazel/src/Application.cpp" "/home/luis/Hazel/Hazel/build/CMakeFiles/Hazel.dir/src/Application.cpp.o"
-  "/home/luis/Hazel/Hazel/src/Log.cpp" "/home/luis/Hazel/Hazel/build/CMakeFiles/Hazel.dir/src/Log.cpp.o"
+  "/home/luis/git/GameEngineSeriesCherno/Hazel/src/Application.cpp" "/home/luis/git/GameEngineSeriesCherno/Hazel/build/CMakeFiles/Hazel.dir/src/Application.cpp.o"
+  "/home/luis/git/GameEngineSeriesCherno/Hazel/src/Log.cpp" "/home/luis/git/GameEngineSeriesCherno/Hazel/build/CMakeFiles/Hazel.dir/src/Log.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++17 -fPIC
 
 CXX_DEFINES = -DHazel_EXPORTS
 
-CXX_INCLUDES = -I/home/luis/Hazel/Hazel/inlude -I/home/luis/Hazel/Hazel/vendor/spdlog/include 
+CXX_INCLUDES = -I/home/luis/git/GameEngineSeriesCherno/Hazel/inlude -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/spdlog/include 
 

@@ -370,25 +370,25 @@ string
 
 ../vendor/spdlog/include/spdlog/version.h
 
-/home/luis/Hazel/Hazel/src/Application.cpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Application.cpp
 Application.hpp
-/home/luis/Hazel/Hazel/src/Application.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Application.hpp
 
-/home/luis/Hazel/Hazel/src/Application.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Application.hpp
 Core.hpp
-/home/luis/Hazel/Hazel/src/Core.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Core.hpp
 
-/home/luis/Hazel/Hazel/src/Core.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Core.hpp
 
-/home/luis/Hazel/Hazel/src/Log.cpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Log.cpp
 Log.hpp
-/home/luis/Hazel/Hazel/src/Log.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Log.hpp
 spdlog/sinks/stdout_color_sinks.h
-/home/luis/Hazel/Hazel/src/spdlog/sinks/stdout_color_sinks.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/spdlog/sinks/stdout_color_sinks.h
 
-/home/luis/Hazel/Hazel/src/Log.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Log.hpp
 Core.hpp
-/home/luis/Hazel/Hazel/src/Core.hpp
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/Core.hpp
 spdlog/spdlog.h
-/home/luis/Hazel/Hazel/src/spdlog/spdlog.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/src/spdlog/spdlog.h
 

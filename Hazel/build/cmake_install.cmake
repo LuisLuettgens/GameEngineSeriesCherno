@@ -1,8 +1,8 @@
-# Install script for directory: /home/luis/Hazel/Hazel
+# Install script for directory: /home/luis/git/GameEngineSeriesCherno/Hazel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luis/Hazel/Hazel")
+  set(CMAKE_INSTALL_PREFIX "/home/luis/git/GameEngineSeriesCherno/Hazel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,27 +33,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  if(EXISTS "$ENV{DESTDIR}/home/luis/Hazel/Hazel/lib/libHazel.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/luis/Hazel/Hazel/lib/libHazel.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/luis/Hazel/Hazel/lib/libHazel.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/Hazel/Hazel/lib/libHazel.so")
+   "/home/luis/git/GameEngineSeriesCherno/Hazel/lib/libHazel.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/Hazel/Hazel/lib" TYPE SHARED_LIBRARY FILES "/home/luis/Hazel/Hazel/build/libHazel.so")
-  if(EXISTS "$ENV{DESTDIR}/home/luis/Hazel/Hazel/lib/libHazel.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/luis/Hazel/Hazel/lib/libHazel.so")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/luis/Hazel/Hazel/lib/libHazel.so")
-    endif()
-  endif()
+file(INSTALL DESTINATION "/home/luis/git/GameEngineSeriesCherno/Hazel/lib" TYPE SHARED_LIBRARY FILES "/home/luis/git/GameEngineSeriesCherno/Hazel/build/libHazel.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luis/Hazel/Hazel/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luis/git/GameEngineSeriesCherno/Hazel/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
