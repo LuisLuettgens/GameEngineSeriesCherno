@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="GAME_ENGINE_SERIES" targetName="joysticks" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="gears" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="uninstall" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="timeout" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="reopen" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="monitors" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="GameEngineSeries" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="iconify" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="gamma" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="opacity" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="sharing" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="boing" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="empty" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="Hazel" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="wave" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="SandboxApp" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="glfw" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="inputlag" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="tearing" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="particles" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="heightmap" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="events" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="msaa" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="offscreen" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="windows" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="simple" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="clipboard" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="threads" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="glfwinfo" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="splitview" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="cursor" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="title" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="icon" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_C_COMPILER=/usr/bin/clang-6.0 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-6.0" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88c0a827-4add-411c-b030-b9f186b34ed4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/hzpch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/src/hzpch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hazel/vendor/GLFW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Application.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Application.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Log.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Log.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/ApplicationEvent.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/Event.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/KeyEvent.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/MouseEvent.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/include/Hazel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/include/Hazel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/lib/libHazel.so" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/lib/libHazel.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Log.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/libHazel.so" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/libHazel.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/bin/SandboxApp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/bin/SandboxApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.o" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/Hazel/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hazel/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#39#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#49#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+              <folding>
+                <element signature="e#33#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GLFW_BUILD_DOCS</find>
+      <find>doc</find>
+      <find>INCLUDE_DIR</find>
+      <find>glclear</find>
+      <find>glfw</find>
+      <find>vulkan</find>
+      <find>include_direc</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hazel/include/Events/KeyEvent.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/include/Events/MouseEvent.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Application.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Application.cpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Log.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Log.cpp" />
+        <option value="$PROJECT_DIR$/Hazel/include/Hazel.h" />
+        <option value="$PROJECT_DIR$/Hazel/include/Events/Event.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Makefile" />
+        <option value="$PROJECT_DIR$/Hazel/include/Events/ApplicationEvent.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Makefile" />
+        <option value="$PROJECT_DIR$/Sandbox/src/Makefile" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp" />
+        <option value="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Hazel/src/Window.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/hzpch.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" />
+        <option value="$PROJECT_DIR$/Hazel/vendor/GLFW/include/GLFW/glfw3.h" />
+        <option value="$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" />
+        <option value="$PROJECT_DIR$/Sandbox/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Hazel/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="419" />
+    <option name="y" value="39" />
+    <option name="width" value="649" />
+    <option name="height" value="736" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="Platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sandbox/bin/SandboxApp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hazel/src/Hazel" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GameEngineSeries">
+    <configuration name="GameEngineSeries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="GameEngineSeries" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="SandboxApp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hazel" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="Hazel" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/Sandbox/bin/SandboxApp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SandboxApp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="SandboxApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="SandboxApp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="boing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="clipboard">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="cursor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="empty">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="events">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="gamma">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="gears">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="glfw" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="glfwinfo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="heightmap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="icon" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="icon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="icon">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="iconify">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inputlag" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="inputlag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="inputlag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="joysticks">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="monitors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="msaa">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="offscreen" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="offscreen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="offscreen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opacity" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="opacity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="opacity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="particles">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="reopen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="sharing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="simple">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="splitview">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="tearing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="threads">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="timeout" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="timeout" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="timeout">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="title">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="wave">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="windows">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.splitview" />
+      <item itemvalue="Application.uninstall" />
+      <item itemvalue="Application.glfw" />
+      <item itemvalue="Application.events" />
+      <item itemvalue="Application.icon" />
+      <item itemvalue="Application.wave" />
+      <item itemvalue="Application.glfwinfo" />
+      <item itemvalue="Application.joysticks" />
+      <item itemvalue="Application.particles" />
+      <item itemvalue="Application.iconify" />
+      <item itemvalue="Application.clipboard" />
+      <item itemvalue="Application.empty" />
+      <item itemvalue="Application.inputlag" />
+      <item itemvalue="Application.gamma" />
+      <item itemvalue="Application.monitors" />
+      <item itemvalue="Application.opacity" />
+      <item itemvalue="Application.simple" />
+      <item itemvalue="Application.title" />
+      <item itemvalue="Application.reopen" />
+      <item itemvalue="Application.cursor" />
+      <item itemvalue="Application.threads" />
+      <item itemvalue="Application.windows" />
+      <item itemvalue="Application.tearing" />
+      <item itemvalue="Application.msaa" />
+      <item itemvalue="Application.timeout" />
+      <item itemvalue="Application.boing" />
+      <item itemvalue="Application.sharing" />
+      <item itemvalue="Application.gears" />
+      <item itemvalue="Application.heightmap" />
+      <item itemvalue="Application.offscreen" />
+      <item itemvalue="Application.GameEngineSeries" />
+      <item itemvalue="Application.Hazel" />
+      <item itemvalue="Application.SandboxApp" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88c0a827-4add-411c-b030-b9f186b34ed4" name="Default Changelist" comment="" />
+      <created>1545252834782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545252834782</updated>
+      <workItem from="1545252836245" duration="3491000" />
+      <workItem from="1545293569070" duration="28988000" />
+      <workItem from="1545408915080" duration="7453000" />
+      <workItem from="1545424563865" duration="1539000" />
+      <workItem from="1545427167592" duration="5999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47470000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18804781" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32713178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.34263566" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5627907" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.36744186" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18804781" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32713178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.34263566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5627907" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.36744186" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/spdlog/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding>
+            <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" selection-start-line="28" selection-end-line="30" />
+          <folding>
+            <element signature="e#124#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Application.cpp" />
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Application.hpp" />
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Core.hpp" />
+    <entry file="file://$PROJECT_DIR$/Hazel/src/EntryPoint.hpp" />
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Log.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/include/Hazel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Log.hpp" />
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Log.cpp" />
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+            <element signature="e#2051#2063#0" expanded="true" />
+            <element signature="e#2192#2204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="367" selection-start-line="367" selection-end-line="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
+          <folding>
+            <element signature="e#136#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/premake5.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/hzpch.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/hzpch.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="91" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="91" />
+          <folding>
+            <element signature="e#105#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GL/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11744">
+          <caret line="749" column="22" selection-start-line="749" selection-start-column="22" selection-end-line="749" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#116#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/include/GLFW/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2642">
+          <caret line="214" column="12" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

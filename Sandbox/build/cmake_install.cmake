@@ -1,8 +1,8 @@
-# Install script for directory: /home/luis/Hazel/Sandbox
+# Install script for directory: /home/luis/git/GameEngineSeriesCherno/Sandbox
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luis/Hazel/Sandbox")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luis/Hazel/Sandbox/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luis/git/GameEngineSeriesCherno/Sandbox/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

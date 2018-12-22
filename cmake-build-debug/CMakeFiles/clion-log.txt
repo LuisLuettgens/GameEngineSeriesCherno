@@ -1,0 +1,12 @@
+/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-6.0 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-6.0 -G "CodeBlocks - Unix Makefiles" /home/luis/git/GameEngineSeriesCherno
+Entering GameEngineSeries...
+-- Could NOT find Vulkan (missing: VULKAN_LIBRARY) 
+-- Using X11 for window creation
+Entering Hazel...
+Hazel done!
+Entering SandboxApp...
+SandboxApp done!
+GameEngineSeries done!
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug

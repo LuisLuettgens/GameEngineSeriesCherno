@@ -141,8 +141,8 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Value Computed by CMake
 Hazel_BINARY_DIR:STATIC=/home/luis/git/GameEngineSeriesCherno/Hazel/build
 
-//Dependencies for target
-Hazel_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+Hazel_LIB_DEPENDS:STATIC=general;GL;general;GLEW;general;SDL2;
 
 //Value Computed by CMake
 Hazel_SOURCE_DIR:STATIC=/home/luis/git/GameEngineSeriesCherno/Hazel

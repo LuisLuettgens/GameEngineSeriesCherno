@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o"
-  "SandboxApp.pdb"
-  "SandboxApp"
+  "../bin/SandboxApp.pdb"
+  "../bin/SandboxApp"
 )
 
 # Per-language clean rules from dependency scanning.

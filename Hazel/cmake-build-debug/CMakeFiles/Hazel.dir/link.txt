@@ -1,0 +1,1 @@
+/usr/bin/clang++-6.0 -fPIC -g  -shared -Wl,-soname,libHazel.so -o libHazel.so CMakeFiles/Hazel.dir/src/Log.cpp.o CMakeFiles/Hazel.dir/src/Application.cpp.o 

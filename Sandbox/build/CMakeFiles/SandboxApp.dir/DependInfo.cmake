@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/Hazel/Sandbox/src/SandboxApp.cpp" "/home/luis/Hazel/Sandbox/build/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o"
+  "/home/luis/git/GameEngineSeriesCherno/Sandbox/src/SandboxApp.cpp" "/home/luis/git/GameEngineSeriesCherno/Sandbox/build/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/spdlog/include"
-  "/home/luis/Hazel/Hazel/include"
+  "/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/spdlog/include"
+  "/home/luis/git/GameEngineSeriesCherno/Hazel/include"
+  "/home/luis/git/GameEngineSeriesCherno/Hazel/src"
   )
 
 # Targets to which this target links.

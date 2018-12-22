@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC -std=c++17  -shared -Wl,-soname,libHazel.so -o libHazel.so CMakeFiles/Hazel.dir/src/Log.cpp.o CMakeFiles/Hazel.dir/src/Application.cpp.o 
+/usr/bin/c++  -fPIC  -std=c++17 -pthread  -lGL -lGLU  -shared -Wl,-soname,libHazel.so -o ../lib/libHazel.so CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o -lGL -lGLEW -lSDL2 

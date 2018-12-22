@@ -1,26 +1,33 @@
 cmake_minimum_required (VERSION 3.5)
 
-
+message("Entering Hazel...")
 project (Hazel)
-set(SOURCE_DIR  ${CMAKE_CURRENT_SOURCE_DIR}/src)
-set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/inlude)
-set(LIB_DIR     ${CMAKE_CURRENT_SOURCE_DIR}/lib)
-set(VENDOR_DIR  ${CMAKE_CURRENT_SOURCE_DIR}/vendor)
-set(BUILD_DIR   ${CMAKE_CURRENT_SOURCE_DIR}/build)
+SET(HAZEL_DIR   ${PROJECT_SOURCE_DIR})
+set(SOURCE_DIR  ${HAZEL_DIR}/src/Hazel)
+set(INCLUDE_DIR ${HAZEL_DIR}/include)
+set(LIB_DIR     ${HAZEL_DIR}/lib)
+set(VENDOR_DIR  ${HAZEL_DIR}/vendor)
+set(BUILD_DIR   ${HAZEL_DIR}/build)
 
-set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR})
-set(CMAKE_CXX_FLAGS "-std=c++17")
+set(GLFW_LIB_DIR ${VENDOR_DIR}/GLFW)
 
-include_directories(${INCLUDE_DIR} ${VENDOR_DIR}/spdlog/include)
+include_directories(${INCLUDE_DIR}
+					${VENDOR_DIR}/spdlog/include
+					${VENDOR_DIR}/GLFW/include)
 
+SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -std=c++17 -pthread  -lGL -lGLU")
+
+SET(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${LIB_DIR})
 
 add_library(Hazel SHARED ${SOURCE_DIR}/Log.cpp
-			 ${SOURCE_DIR}/Application.cpp )
+			 			 ${SOURCE_DIR}/Application.cpp
+						 ${SOURCE_DIR}/Platform/LinuxWindow.cpp)
 
-install(TARGETS Hazel DESTINATION ${LIB_DIR})
+target_link_libraries(Hazel GL GLEW SDL2 /usr/local/lib/libglfw3.a)
 
+				#/usr/local/lib/libglfw3.a
+				#/home/luis/1.1.92.1/x86_64/lib/libvulkan.so
+				#/usr/lib/x86_64-linux-gnu/libdl.so
+				#/usr/lib/x86_64-linux-gnu/libX11.so)
 
-add_custom_command(TARGET Hazel 
-                   POST_BUILD
-                   COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:Hazel> ${LIB_DIR}
-		   COMMAND ${CMAKE_COMMAND} -E remove $<TARGET_FILE:Hazel>)
+message("Hazel done!")

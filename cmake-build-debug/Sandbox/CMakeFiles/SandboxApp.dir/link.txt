@@ -1,0 +1,1 @@
+/usr/bin/clang++-6.0   -std=c++17 -g -pthread -lGL -lGLU -g   CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o  -o ../../Sandbox/bin/SandboxApp -Wl,-rpath,/home/luis/git/GameEngineSeriesCherno/Hazel/lib ../../Hazel/lib/libHazel.so -lGL -lGLEW -lSDL2 

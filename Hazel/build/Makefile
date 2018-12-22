@@ -56,38 +56,16 @@ CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/Hazel/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
+.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -99,17 +77,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,59 +123,86 @@ Hazel/fast:
 	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/build
 .PHONY : Hazel/fast
 
-src/Application.o: src/Application.cpp.o
+src/Hazel/Application.o: src/Hazel/Application.cpp.o
 
-.PHONY : src/Application.o
-
-# target to build an object file
-src/Application.cpp.o:
-	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Application.cpp.o
-.PHONY : src/Application.cpp.o
-
-src/Application.i: src/Application.cpp.i
-
-.PHONY : src/Application.i
-
-# target to preprocess a source file
-src/Application.cpp.i:
-	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Application.cpp.i
-.PHONY : src/Application.cpp.i
-
-src/Application.s: src/Application.cpp.s
-
-.PHONY : src/Application.s
-
-# target to generate assembly for a file
-src/Application.cpp.s:
-	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Application.cpp.s
-.PHONY : src/Application.cpp.s
-
-src/Log.o: src/Log.cpp.o
-
-.PHONY : src/Log.o
+.PHONY : src/Hazel/Application.o
 
 # target to build an object file
-src/Log.cpp.o:
-	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Log.cpp.o
-.PHONY : src/Log.cpp.o
+src/Hazel/Application.cpp.o:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
+.PHONY : src/Hazel/Application.cpp.o
 
-src/Log.i: src/Log.cpp.i
+src/Hazel/Application.i: src/Hazel/Application.cpp.i
 
-.PHONY : src/Log.i
+.PHONY : src/Hazel/Application.i
 
 # target to preprocess a source file
-src/Log.cpp.i:
-	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Log.cpp.i
-.PHONY : src/Log.cpp.i
+src/Hazel/Application.cpp.i:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
+.PHONY : src/Hazel/Application.cpp.i
 
-src/Log.s: src/Log.cpp.s
+src/Hazel/Application.s: src/Hazel/Application.cpp.s
 
-.PHONY : src/Log.s
+.PHONY : src/Hazel/Application.s
 
 # target to generate assembly for a file
-src/Log.cpp.s:
-	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Log.cpp.s
-.PHONY : src/Log.cpp.s
+src/Hazel/Application.cpp.s:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
+.PHONY : src/Hazel/Application.cpp.s
+
+src/Hazel/Log.o: src/Hazel/Log.cpp.o
+
+.PHONY : src/Hazel/Log.o
+
+# target to build an object file
+src/Hazel/Log.cpp.o:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
+.PHONY : src/Hazel/Log.cpp.o
+
+src/Hazel/Log.i: src/Hazel/Log.cpp.i
+
+.PHONY : src/Hazel/Log.i
+
+# target to preprocess a source file
+src/Hazel/Log.cpp.i:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
+.PHONY : src/Hazel/Log.cpp.i
+
+src/Hazel/Log.s: src/Hazel/Log.cpp.s
+
+.PHONY : src/Hazel/Log.s
+
+# target to generate assembly for a file
+src/Hazel/Log.cpp.s:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
+.PHONY : src/Hazel/Log.cpp.s
+
+src/Hazel/Platform/LinuxWindow.o: src/Hazel/Platform/LinuxWindow.cpp.o
+
+.PHONY : src/Hazel/Platform/LinuxWindow.o
+
+# target to build an object file
+src/Hazel/Platform/LinuxWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o
+.PHONY : src/Hazel/Platform/LinuxWindow.cpp.o
+
+src/Hazel/Platform/LinuxWindow.i: src/Hazel/Platform/LinuxWindow.cpp.i
+
+.PHONY : src/Hazel/Platform/LinuxWindow.i
+
+# target to preprocess a source file
+src/Hazel/Platform/LinuxWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
+.PHONY : src/Hazel/Platform/LinuxWindow.cpp.i
+
+src/Hazel/Platform/LinuxWindow.s: src/Hazel/Platform/LinuxWindow.cpp.s
+
+.PHONY : src/Hazel/Platform/LinuxWindow.s
+
+# target to generate assembly for a file
+src/Hazel/Platform/LinuxWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Hazel.dir/build.make CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
+.PHONY : src/Hazel/Platform/LinuxWindow.cpp.s
 
 # Help Target
 help:
@@ -216,18 +210,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... Hazel"
-	@echo "... install/local"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... src/Application.o"
-	@echo "... src/Application.i"
-	@echo "... src/Application.s"
-	@echo "... src/Log.o"
-	@echo "... src/Log.i"
-	@echo "... src/Log.s"
+	@echo "... Hazel"
+	@echo "... rebuild_cache"
+	@echo "... src/Hazel/Application.o"
+	@echo "... src/Hazel/Application.i"
+	@echo "... src/Hazel/Application.s"
+	@echo "... src/Hazel/Log.o"
+	@echo "... src/Hazel/Log.i"
+	@echo "... src/Hazel/Log.s"
+	@echo "... src/Hazel/Platform/LinuxWindow.o"
+	@echo "... src/Hazel/Platform/LinuxWindow.i"
+	@echo "... src/Hazel/Platform/LinuxWindow.s"
 .PHONY : help
 
 
