@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -128,7 +128,7 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -138,7 +138,7 @@ string.h
 glad/glad.h
 -
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/tearing.c
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/tearing.c
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -150,5 +150,5 @@ stdlib.h
 math.h
 -
 linmath.h
-/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/linmath.h
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/linmath.h
 

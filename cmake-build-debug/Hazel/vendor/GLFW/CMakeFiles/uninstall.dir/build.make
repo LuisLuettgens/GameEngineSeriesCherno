@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
+CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
 include Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/progress.make
 
 Hazel/vendor/GLFW/CMakeFiles/uninstall:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW && /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -P /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/cmake_uninstall.cmake
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW && /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -P /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/cmake_uninstall.cmake
 
 uninstall: Hazel/vendor/GLFW/CMakeFiles/uninstall
 uninstall: Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build
 
 Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/clean:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/clean
 
 Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/depend:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/git/GameEngineSeriesCherno /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW /home/luis/git/GameEngineSeriesCherno/cmake-build-debug /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/CLionProjects/GameEngineSeriesCherno /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/depend
 

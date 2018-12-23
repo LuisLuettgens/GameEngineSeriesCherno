@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -428,85 +428,109 @@ string
 
 ../Hazel/vendor/spdlog/include/spdlog/version.h
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp
 Application.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.hpp
-Events/ApplicationEvent.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.hpp
 Log.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
 iostream
+-
+GL/glew.h
+-
+GL/glut.h
 -
 GLFW/glfw3.h
 -
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.hpp
 Core.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
 Events/Event.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+Events/ApplicationEvent.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
 Window.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
 ../hzpch.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
 sstream
 -
 iostream
 -
 Event.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
 string
 -
 functional
 -
 ../Core.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/KeyEvent.hpp
+sstream
+-
+Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/MouseEvent.hpp
+sstream
+-
+Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp
 Log.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
 spdlog/sinks/stdout_color_sinks.h
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/spdlog/sinks/stdout_color_sinks.h
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/spdlog/sinks/stdout_color_sinks.h
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
 Core.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
 spdlog/spdlog.h
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/spdlog/spdlog.h
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/spdlog/spdlog.h
 spdlog/fmt/ostr.h
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/spdlog/fmt/ostr.h
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/spdlog/fmt/ostr.h
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp
 LinuxWindow.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.hpp
 ../../hzpch.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
+../Events/MouseEvent.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/MouseEvent.hpp
+../Events/KeyEvent.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/KeyEvent.hpp
+../Events/ApplicationEvent.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.hpp
 ../Window.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
 GL/glew.h
+-
+GL/glut.h
 -
 GLFW/glfw3.h
 -
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
 string
 -
 ../hzpch.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
 Core.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
 Events/Event.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
 
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
 iostream
 -
 memory
@@ -528,5 +552,5 @@ unordered_map
 unordered_set
 -
 Hazel/Log.hpp
-/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
 

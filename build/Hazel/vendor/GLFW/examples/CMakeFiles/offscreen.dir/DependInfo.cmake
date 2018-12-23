@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c" "/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/__/deps/glad.c.o"
-  "/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/offscreen.c" "/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/offscreen.c.o"
+  "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/__/deps/glad.c.o"
+  "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/offscreen.c" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/offscreen.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

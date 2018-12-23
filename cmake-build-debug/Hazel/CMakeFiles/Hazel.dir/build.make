@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
+CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Hazel/CMakeFiles/Hazel.dir/depend.make
@@ -59,42 +59,42 @@ include Hazel/CMakeFiles/Hazel.dir/flags.make
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: ../Hazel/src/Hazel/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o -c /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp > CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp > CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o -c /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp > CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp > CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Platform/LinuxWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o -c /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o"
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp > CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp > CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/clang++-6.0 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
 
 # Object files for target Hazel
 Hazel_OBJECTS = \
@@ -109,10 +109,13 @@ Hazel_EXTERNAL_OBJECTS =
 ../Hazel/lib/libHazel.so: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
 ../Hazel/lib/libHazel.so: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o
 ../Hazel/lib/libHazel.so: Hazel/CMakeFiles/Hazel.dir/build.make
-../Hazel/lib/libHazel.so: /usr/local/lib/libglfw3.a
+../Hazel/lib/libHazel.so: Hazel/vendor/GLFW/src/libglfw3.a
+../Hazel/lib/libHazel.so: /usr/lib/x86_64-linux-gnu/librt.so
+../Hazel/lib/libHazel.so: /usr/lib/x86_64-linux-gnu/libm.so
+../Hazel/lib/libHazel.so: /usr/lib/x86_64-linux-gnu/libX11.so
 ../Hazel/lib/libHazel.so: Hazel/CMakeFiles/Hazel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../Hazel/lib/libHazel.so"
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hazel.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../Hazel/lib/libHazel.so"
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hazel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Hazel/CMakeFiles/Hazel.dir/build: ../Hazel/lib/libHazel.so
@@ -120,10 +123,10 @@ Hazel/CMakeFiles/Hazel.dir/build: ../Hazel/lib/libHazel.so
 .PHONY : Hazel/CMakeFiles/Hazel.dir/build
 
 Hazel/CMakeFiles/Hazel.dir/clean:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel && $(CMAKE_COMMAND) -P CMakeFiles/Hazel.dir/cmake_clean.cmake
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel && $(CMAKE_COMMAND) -P CMakeFiles/Hazel.dir/cmake_clean.cmake
 .PHONY : Hazel/CMakeFiles/Hazel.dir/clean
 
 Hazel/CMakeFiles/Hazel.dir/depend:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/git/GameEngineSeriesCherno /home/luis/git/GameEngineSeriesCherno/Hazel /home/luis/git/GameEngineSeriesCherno/cmake-build-debug /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/CLionProjects/GameEngineSeriesCherno /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Hazel/CMakeFiles/Hazel.dir/depend
 

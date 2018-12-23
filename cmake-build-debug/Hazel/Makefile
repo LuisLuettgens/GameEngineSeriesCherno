@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
+CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -82,19 +82,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -115,25 +115,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/CMakeFiles/progress.marks
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles 0
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/CMakeFiles/progress.marks
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/clean
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Hazel/CMakeFiles/Hazel.dir/rule:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel.dir/rule
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel.dir/rule
 .PHONY : Hazel/CMakeFiles/Hazel.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Hazel: Hazel/CMakeFiles/Hazel.dir/rule
 
 # fast build rule for target.
 Hazel/fast:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
 .PHONY : Hazel/fast
 
 src/Hazel/Application.o: src/Hazel/Application.cpp.o
@@ -177,7 +177,7 @@ src/Hazel/Application.o: src/Hazel/Application.cpp.o
 
 # target to build an object file
 src/Hazel/Application.cpp.o:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
 .PHONY : src/Hazel/Application.cpp.o
 
 src/Hazel/Application.i: src/Hazel/Application.cpp.i
@@ -186,7 +186,7 @@ src/Hazel/Application.i: src/Hazel/Application.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Application.cpp.i:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
 .PHONY : src/Hazel/Application.cpp.i
 
 src/Hazel/Application.s: src/Hazel/Application.cpp.s
@@ -195,7 +195,7 @@ src/Hazel/Application.s: src/Hazel/Application.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Application.cpp.s:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
 .PHONY : src/Hazel/Application.cpp.s
 
 src/Hazel/Log.o: src/Hazel/Log.cpp.o
@@ -204,7 +204,7 @@ src/Hazel/Log.o: src/Hazel/Log.cpp.o
 
 # target to build an object file
 src/Hazel/Log.cpp.o:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
 .PHONY : src/Hazel/Log.cpp.o
 
 src/Hazel/Log.i: src/Hazel/Log.cpp.i
@@ -213,7 +213,7 @@ src/Hazel/Log.i: src/Hazel/Log.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Log.cpp.i:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
 .PHONY : src/Hazel/Log.cpp.i
 
 src/Hazel/Log.s: src/Hazel/Log.cpp.s
@@ -222,7 +222,7 @@ src/Hazel/Log.s: src/Hazel/Log.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Log.cpp.s:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
 .PHONY : src/Hazel/Log.cpp.s
 
 src/Hazel/Platform/LinuxWindow.o: src/Hazel/Platform/LinuxWindow.cpp.o
@@ -231,7 +231,7 @@ src/Hazel/Platform/LinuxWindow.o: src/Hazel/Platform/LinuxWindow.cpp.o
 
 # target to build an object file
 src/Hazel/Platform/LinuxWindow.cpp.o:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o
 .PHONY : src/Hazel/Platform/LinuxWindow.cpp.o
 
 src/Hazel/Platform/LinuxWindow.i: src/Hazel/Platform/LinuxWindow.cpp.i
@@ -240,7 +240,7 @@ src/Hazel/Platform/LinuxWindow.i: src/Hazel/Platform/LinuxWindow.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Platform/LinuxWindow.cpp.i:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
 .PHONY : src/Hazel/Platform/LinuxWindow.cpp.i
 
 src/Hazel/Platform/LinuxWindow.s: src/Hazel/Platform/LinuxWindow.cpp.s
@@ -249,7 +249,7 @@ src/Hazel/Platform/LinuxWindow.s: src/Hazel/Platform/LinuxWindow.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Platform/LinuxWindow.cpp.s:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
 .PHONY : src/Hazel/Platform/LinuxWindow.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

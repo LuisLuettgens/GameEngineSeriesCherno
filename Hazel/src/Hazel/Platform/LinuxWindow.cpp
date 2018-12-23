@@ -5,9 +5,18 @@
 #include "LinuxWindow.hpp"
 #include "../../hzpch.hpp"
 
+#include "../Events/MouseEvent.hpp"
+#include "../Events/KeyEvent.hpp"
+#include "../Events/ApplicationEvent.hpp"
+
 namespace Hazel {
 
     static bool s_GLFWInitialized = false;
+
+    static void GLFWErrorCallback(int error, const char* description)
+    {
+        HZ_CORE_ERROR("GLFW Error({0}): {1}", error, description);
+    }
 
     Window* Window::Create(const WindowProps& props)
     {
@@ -37,17 +46,104 @@ namespace Hazel {
             // TODO: glfwTerminate on system shutdown
             int success = glfwInit();
             HZ_CORE_ASSERT(success, "Could not intialize GLFW!");
-
+            glfwSetErrorCallback(GLFWErrorCallback);
             s_GLFWInitialized = true;
         }
 
         m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
         glfwMakeContextCurrent(m_Window);
+
         glClearColor(1,0,1,1);
         glClear(GL_COLOR_BUFFER_BIT);
 
         glfwSetWindowUserPointer(m_Window, &m_Data);
         SetVSync(true);
+
+        // Set GLFW callbacks
+
+        glfwSetWindowSizeCallback(m_Window,[](GLFWwindow* window, int width, int height)
+        {
+            WindowData& data =  *static_cast<WindowData*>(glfwGetWindowUserPointer(window));
+
+            data.Width  = width;
+            data.Height = height;
+
+            WindowResizeEvent event(width, height);
+            data.EventCallback(event);
+        });
+
+        glfwSetWindowCloseCallback(m_Window, [](GLFWwindow* window)
+        {
+            WindowData& data =  *static_cast<WindowData*>(glfwGetWindowUserPointer(window));
+            WindowCloseEvent event;
+            data.EventCallback(event);
+        });
+
+        glfwSetKeyCallback(m_Window, [](GLFWwindow* window, int key, int scancode, int action, int mods)
+        {
+            WindowData& data =  *static_cast<WindowData*>(glfwGetWindowUserPointer(window));
+
+            switch (action)
+            {
+                case GLFW_PRESS:
+                {
+                    KeyPressedEvent event(key,0);
+                    data.EventCallback(event);
+                    break;
+                }
+                case GLFW_RELEASE:
+                {
+                    KeyReleasedEvent event(key);
+                    data.EventCallback(event);
+                    break;
+                }
+                case GLFW_REPEAT:
+                {
+                    KeyPressedEvent event(key,1);
+                    data.EventCallback(event);
+                    break;
+                }
+                default:
+                    break;
+            }
+        });
+
+        glfwSetMouseButtonCallback(m_Window,[](GLFWwindow* window, int button, int action, int mods)
+        {
+            WindowData& data =  *static_cast<WindowData*>(glfwGetWindowUserPointer(window));
+
+            switch (action)
+            {
+                case GLFW_PRESS:
+                {
+                    MouseButtonPressedEvent event(button);
+                    data.EventCallback(event);
+                    break;
+                }
+                case GLFW_RELEASE:
+                {
+                    MouseButtonReleasedEvent event(button);
+                    data.EventCallback(event);
+                    break;
+                }
+                default:
+                    break;
+            }
+        });
+
+        glfwSetScrollCallback(m_Window, [](GLFWwindow* window, double xOffset, double yOffset)
+        {
+            WindowData& data =  *static_cast<WindowData*>(glfwGetWindowUserPointer(window));
+            MouseScrolledEvent event(static_cast<float>(xOffset),static_cast<float>(yOffset));
+            data.EventCallback(event);
+        });
+
+        glfwSetCursorPosCallback(m_Window, [](GLFWwindow* window, double xPos, double yPos)
+        {
+            WindowData& data =  *static_cast<WindowData*>(glfwGetWindowUserPointer(window));
+            MouseMovedEvent event(static_cast<float>(xPos), static_cast<float>(yPos));
+            data.EventCallback(event);
+        });
     }
 
     void LinuxWindow::Shutdown()
@@ -58,6 +154,8 @@ namespace Hazel {
     void LinuxWindow::OnUpdate()
     {
         glfwPollEvents();
+        glClear(GL_COLOR_BUFFER_BIT);
+
         glfwSwapBuffers(m_Window);
     }
 

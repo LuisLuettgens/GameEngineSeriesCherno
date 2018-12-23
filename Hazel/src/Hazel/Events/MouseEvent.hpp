@@ -10,7 +10,7 @@
 
 namespace  Hazel
 {
-    class MouseEvent : public Event
+    class MouseMovedEvent : public Event
     {
     public:
         MouseMovedEvent(float x, float y)
@@ -71,7 +71,7 @@ namespace  Hazel
         int m_Button;
     };
 
-    class HAZEL_API MouseButtonPressedEvent : public MouseEvent
+    class HAZEL_API MouseButtonPressedEvent : public MouseButtonEvent
     {
     public:
         MouseButtonPressedEvent(int button)
@@ -88,7 +88,7 @@ namespace  Hazel
 
     };
 
-    class HAZEL_API MouseButtonReleasedEvent : public MouseEvent
+    class HAZEL_API MouseButtonReleasedEvent : public MouseButtonEvent
     {
     public:
         MouseButtonReleasedEvent(int button)

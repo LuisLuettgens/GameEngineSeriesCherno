@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
+CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -82,19 +82,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -115,25 +115,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/luis/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Sandbox/CMakeFiles/progress.marks
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles 0
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Sandbox/CMakeFiles/progress.marks
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/clean
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/preinstall
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/preinstall
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Sandbox/CMakeFiles/SandboxApp.dir/rule:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/SandboxApp.dir/rule
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/SandboxApp.dir/rule
 .PHONY : Sandbox/CMakeFiles/SandboxApp.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ SandboxApp: Sandbox/CMakeFiles/SandboxApp.dir/rule
 
 # fast build rule for target.
 SandboxApp/fast:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/build
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/build
 .PHONY : SandboxApp/fast
 
 src/SandboxApp.o: src/SandboxApp.cpp.o
@@ -177,7 +177,7 @@ src/SandboxApp.o: src/SandboxApp.cpp.o
 
 # target to build an object file
 src/SandboxApp.cpp.o:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o
 .PHONY : src/SandboxApp.cpp.o
 
 src/SandboxApp.i: src/SandboxApp.cpp.i
@@ -186,7 +186,7 @@ src/SandboxApp.i: src/SandboxApp.cpp.i
 
 # target to preprocess a source file
 src/SandboxApp.cpp.i:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.i
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.i
 .PHONY : src/SandboxApp.cpp.i
 
 src/SandboxApp.s: src/SandboxApp.cpp.s
@@ -195,7 +195,7 @@ src/SandboxApp.s: src/SandboxApp.cpp.s
 
 # target to generate assembly for a file
 src/SandboxApp.cpp.s:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.s
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.s
 .PHONY : src/SandboxApp.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

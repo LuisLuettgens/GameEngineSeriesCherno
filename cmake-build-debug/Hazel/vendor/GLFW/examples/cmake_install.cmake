@@ -1,4 +1,4 @@
-# Install script for directory: /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples
+# Install script for directory: /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

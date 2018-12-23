@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,55 +6,65 @@
 
 #IncludeRegexTransform: 
 
-../Hazel/include/Hazel.h
+../Sandbox/../Hazel/include/Hazel.h
 ../src/Hazel/Application.hpp
-../Hazel/src/Hazel/Application.hpp
+../Sandbox/../Hazel/src/Hazel/Application.hpp
 ../src/Hazel/Log.hpp
-../Hazel/src/Hazel/Log.hpp
+../Sandbox/../Hazel/src/Hazel/Log.hpp
 ../src/Hazel/EntryPoint.hpp
-../Hazel/src/Hazel/EntryPoint.hpp
+../Sandbox/../Hazel/src/Hazel/EntryPoint.hpp
 
-../Hazel/src/Hazel/Application.hpp
+../Sandbox/../Hazel/src/Hazel/Application.hpp
 Core.hpp
-../Hazel/src/Hazel/Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
 Events/Event.hpp
-../Hazel/src/Hazel/Events/Event.hpp
+../Sandbox/../Hazel/src/Hazel/Events/Event.hpp
+Events/ApplicationEvent.hpp
+../Sandbox/../Hazel/src/Hazel/Events/ApplicationEvent.hpp
 Window.hpp
-../Hazel/src/Hazel/Window.hpp
+../Sandbox/../Hazel/src/Hazel/Window.hpp
 ../hzpch.hpp
-../Hazel/src/hzpch.hpp
+../Sandbox/../Hazel/src/hzpch.hpp
 
-../Hazel/src/Hazel/Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
 
-../Hazel/src/Hazel/EntryPoint.hpp
+../Sandbox/../Hazel/src/Hazel/EntryPoint.hpp
 
-../Hazel/src/Hazel/Events/Event.hpp
+../Sandbox/../Hazel/src/Hazel/Events/ApplicationEvent.hpp
+sstream
+-
+iostream
+-
+Event.hpp
+../Sandbox/../Hazel/src/Hazel/Events/Event.hpp
+
+../Sandbox/../Hazel/src/Hazel/Events/Event.hpp
 string
 -
 functional
 -
 ../Core.hpp
-../Hazel/src/Hazel/Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
 
-../Hazel/src/Hazel/Log.hpp
+../Sandbox/../Hazel/src/Hazel/Log.hpp
 Core.hpp
-../Hazel/src/Hazel/Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
 spdlog/spdlog.h
-../Hazel/src/Hazel/spdlog/spdlog.h
+../Sandbox/../Hazel/src/Hazel/spdlog/spdlog.h
 spdlog/fmt/ostr.h
-../Hazel/src/Hazel/spdlog/fmt/ostr.h
+../Sandbox/../Hazel/src/Hazel/spdlog/fmt/ostr.h
 
-../Hazel/src/Hazel/Window.hpp
+../Sandbox/../Hazel/src/Hazel/Window.hpp
 string
 -
 ../hzpch.hpp
-../Hazel/src/hzpch.hpp
+../Sandbox/../Hazel/src/hzpch.hpp
 Core.hpp
-../Hazel/src/Hazel/Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
 Events/Event.hpp
-../Hazel/src/Hazel/Events/Event.hpp
+../Sandbox/../Hazel/src/Hazel/Events/Event.hpp
 
-../Hazel/src/hzpch.hpp
+../Sandbox/../Hazel/src/hzpch.hpp
 iostream
 -
 memory
@@ -76,11 +86,11 @@ unordered_map
 unordered_set
 -
 Hazel/Log.hpp
-../Hazel/src/Hazel/Log.hpp
+../Sandbox/../Hazel/src/Hazel/Log.hpp
 
-../Hazel/vendor/spdlog/include/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/common.h
 spdlog/tweakme.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/tweakme.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/tweakme.h
 atomic
 -
 chrono
@@ -104,13 +114,13 @@ codecvt
 locale
 -
 spdlog/details/null_mutex.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/details/null_mutex.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/details/null_mutex.h
 spdlog/fmt/fmt.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/fmt/fmt.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/fmt/fmt.h
 
-../Hazel/vendor/spdlog/include/spdlog/details/console_globals.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/console_globals.h
 spdlog/details/null_mutex.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/null_mutex.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/null_mutex.h
 cstdio
 -
 mutex
@@ -118,39 +128,39 @@ mutex
 windows.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/fmt_helper.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/fmt_helper.h
 chrono
 -
 type_traits
 -
 spdlog/fmt/fmt.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/fmt/fmt.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/fmt/fmt.h
 
-../Hazel/vendor/spdlog/include/spdlog/details/log_msg.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/log_msg.h
 spdlog/common.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/common.h
 spdlog/details/os.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/os.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/os.h
 string
 -
 utility
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/logger_impl.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/logger_impl.h
 spdlog/details/fmt_helper.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/fmt_helper.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/fmt_helper.h
 memory
 -
 string
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/null_mutex.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/null_mutex.h
 atomic
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/os.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/os.h
 ../common.h
-../Hazel/vendor/spdlog/include/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/common.h
 algorithm
 -
 chrono
@@ -190,17 +200,17 @@ sys/syscall.h
 sys/thr.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/pattern_formatter.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/pattern_formatter.h
 spdlog/details/fmt_helper.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/fmt_helper.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/fmt_helper.h
 spdlog/details/log_msg.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/log_msg.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/log_msg.h
 spdlog/details/os.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/os.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/os.h
 spdlog/fmt/fmt.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/fmt/fmt.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/fmt/fmt.h
 spdlog/formatter.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/formatter.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/formatter.h
 array
 -
 chrono
@@ -222,7 +232,7 @@ utility
 vector
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/periodic_worker.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/periodic_worker.h
 chrono
 -
 condition_variable
@@ -234,17 +244,17 @@ mutex
 thread
 -
 
-../Hazel/vendor/spdlog/include/spdlog/details/registry.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/registry.h
 spdlog/common.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/common.h
 spdlog/details/periodic_worker.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/periodic_worker.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/details/periodic_worker.h
 spdlog/logger.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/logger.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/logger.h
 spdlog/sinks/wincolor_sink.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/sinks/wincolor_sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/sinks/wincolor_sink.h
 spdlog/sinks/ansicolor_sink.h
-../Hazel/vendor/spdlog/include/spdlog/details/spdlog/sinks/ansicolor_sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/spdlog/sinks/ansicolor_sink.h
 chrono
 -
 functional
@@ -256,7 +266,7 @@ string
 unordered_map
 -
 
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
 cassert
 -
 cstdio
@@ -278,9 +288,9 @@ functional
 fmt/core.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 format.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
 string.h
 -
 cctype
@@ -304,7 +314,7 @@ windows.h
 windows.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
 algorithm
 -
 cassert
@@ -322,7 +332,7 @@ stdexcept
 stdint.h
 -
 core.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
 iterator
 -
 intrin.h
@@ -332,45 +342,45 @@ fmt/format.h
 fmt/format.h
 -
 format-inl.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
 format.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
 ostream
 -
 
-../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
 bundled/core.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
 bundled/format.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
 fmt/core.h
 -
 fmt/format.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
 bundled/ostream.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
 fmt.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
 fmt/ostream.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/formatter.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/formatter.h
 fmt/fmt.h
-../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
 spdlog/details/log_msg.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/details/log_msg.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/details/log_msg.h
 
-../Hazel/vendor/spdlog/include/spdlog/logger.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/logger.h
 spdlog/common.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/common.h
 spdlog/formatter.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/formatter.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/formatter.h
 spdlog/sinks/sink.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/sinks/sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/sinks/sink.h
 locale
 -
 memory
@@ -380,17 +390,17 @@ string
 vector
 -
 details/logger_impl.h
-../Hazel/vendor/spdlog/include/spdlog/details/logger_impl.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/details/logger_impl.h
 
-../Hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
 spdlog/details/console_globals.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/console_globals.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/console_globals.h
 spdlog/details/null_mutex.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/null_mutex.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/null_mutex.h
 spdlog/details/os.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/os.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/os.h
 spdlog/sinks/sink.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/sinks/sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/sinks/sink.h
 memory
 -
 mutex
@@ -400,23 +410,23 @@ string
 unordered_map
 -
 
-../Hazel/vendor/spdlog/include/spdlog/sinks/sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/sink.h
 spdlog/details/log_msg.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/log_msg.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/log_msg.h
 spdlog/details/pattern_formatter.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/pattern_formatter.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/pattern_formatter.h
 spdlog/formatter.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/formatter.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/formatter.h
 
-../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
 spdlog/common.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/common.h
 spdlog/details/console_globals.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/console_globals.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/console_globals.h
 spdlog/details/null_mutex.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/null_mutex.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/null_mutex.h
 spdlog/sinks/sink.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/sinks/sink.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/sinks/spdlog/sinks/sink.h
 memory
 -
 mutex
@@ -428,15 +438,15 @@ unordered_map
 wincon.h
 -
 
-../Hazel/vendor/spdlog/include/spdlog/spdlog.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog.h
 spdlog/common.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/common.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/common.h
 spdlog/details/registry.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/details/registry.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/details/registry.h
 spdlog/logger.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/logger.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/logger.h
 spdlog/version.h
-../Hazel/vendor/spdlog/include/spdlog/spdlog/version.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/spdlog/version.h
 chrono
 -
 functional
@@ -446,11 +456,11 @@ memory
 string
 -
 
-../Hazel/vendor/spdlog/include/spdlog/tweakme.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/tweakme.h
 
-../Hazel/vendor/spdlog/include/spdlog/version.h
+../Sandbox/../Hazel/vendor/spdlog/include/spdlog/version.h
 
-/home/luis/git/GameEngineSeriesCherno/Sandbox/src/SandboxApp.cpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox/src/SandboxApp.cpp
 Hazel.h
 -
 iostream

@@ -2,114 +2,556 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="GAME_ENGINE_SERIES" targetName="joysticks" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="gears" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="uninstall" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="timeout" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="reopen" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="monitors" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="GameEngineSeries" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="iconify" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="gamma" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="opacity" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="sharing" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="boing" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="empty" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="Hazel" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="wave" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="SandboxApp" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="glfw" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="inputlag" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="tearing" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="particles" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="heightmap" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="events" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="msaa" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="offscreen" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="windows" />
       <config projectName="GAME_ENGINE_SERIES" targetName="simple" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="clipboard" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="threads" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="glfwinfo" />
-      <config projectName="GAME_ENGINE_SERIES" targetName="splitview" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="SandboxApp" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="GameEngineSeries" />
       <config projectName="GAME_ENGINE_SERIES" targetName="cursor" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="timeout" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="glfw" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="gears" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="clipboard" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="windows" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="boing" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="wave" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="empty" />
       <config projectName="GAME_ENGINE_SERIES" targetName="title" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="reopen" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="heightmap" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="offscreen" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="events" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="sharing" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="opacity" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="monitors" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="glfwinfo" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="msaa" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="tearing" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="uninstall" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="inputlag" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="iconify" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="threads" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="gamma" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="particles" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="splitview" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="Hazel" />
+      <config projectName="GAME_ENGINE_SERIES" targetName="joysticks" />
       <config projectName="GAME_ENGINE_SERIES" targetName="icon" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_C_COMPILER=/usr/bin/clang-6.0 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-6.0" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88c0a827-4add-411c-b030-b9f186b34ed4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/hzpch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/src/hzpch.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hazel/vendor/GLFW" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hazel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Application.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Application.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Log.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Hazel.dir/src/Log.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/ApplicationEvent.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/Event.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/KeyEvent.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/include/Events/MouseEvent.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/include/Hazel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/include/Hazel.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hazel/lib/libHazel.so" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/lib/libHazel.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/EntryPoint.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Log.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/libHazel.so" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/libHazel.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hazel/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hazel/vendor/GLFW" beforeDir="false" afterPath="$PROJECT_DIR$/Hazel/vendor/GLFW" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox/bin/SandboxApp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/bin/SandboxApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/GameEngineSeries.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/GameEngineSeries.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/Hazel.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/cmake_uninstall.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/cmake_uninstall.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/boing" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/boing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/gears" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/gears" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/heightmap" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/heightmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/offscreen" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/offscreen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/particles" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/particles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/sharing" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/sharing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/simple" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/simple" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/splitview" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/splitview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/wave" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/examples/wave" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/libglfw3.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/src/libglfw3.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/clipboard" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/clipboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/cursor" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/cursor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/empty" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/empty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/events" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/events" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/gamma" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/gamma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/glfwinfo" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/glfwinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/icon" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/icon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/iconify" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/iconify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/inputlag" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/inputlag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/joysticks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/joysticks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/monitors" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/monitors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/msaa" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/msaa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/opacity" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/opacity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/reopen" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/reopen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/tearing" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/tearing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/threads" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/threads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/timeout" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/timeout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/title" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/title" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/windows" beforeDir="false" afterPath="$PROJECT_DIR$/build/Hazel/vendor/GLFW/tests/windows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/SandboxApp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Sandbox/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Sandbox/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GAME_ENGINE_SERIES.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GAME_ENGINE_SERIES.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GAME_ENGINE_SERIES.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GAME_ENGINE_SERIES.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GAME_ENGINE_SERIES.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GAME_ENGINE_SERIES.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameEngineSeries.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameEngineSeries.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameEngineSeries.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GameEngineSeries.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GAME_ENGINE_SERIES.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GAME_ENGINE_SERIES.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/Hazel.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/Hazel.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/Hazel.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/GLFW.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/GLFW.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/cmake_uninstall.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/cmake_uninstall.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/wave.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/examples/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/title.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hazel/vendor/GLFW/tests/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/SandboxApp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/SandboxApp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sandbox/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sandbox/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Hazel/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -122,41 +564,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hazel/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="e#39#65#0" expanded="true" />
-              </folding>
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -164,8 +576,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="146">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#49#68#0" expanded="true" />
               </folding>
@@ -174,31 +586,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp">
+        <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+            <state relative-caret-position="93">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
-                <element signature="e#33#52#0" expanded="true" />
+                <element signature="e#120#137#0" expanded="true" />
+                <element signature="e#2042#2054#0" expanded="true" />
+                <element signature="e#2183#2195#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -206,11 +602,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="93">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -231,8 +645,8 @@
       <find>INCLUDE_DIR</find>
       <find>glclear</find>
       <find>glfw</find>
-      <find>vulkan</find>
       <find>include_direc</find>
+      <find>vulkan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -259,16 +673,20 @@
         <option value="$PROJECT_DIR$/Hazel/src/Window.hpp" />
         <option value="$PROJECT_DIR$/Hazel/src/Hazel/Core.hpp" />
         <option value="$PROJECT_DIR$/Hazel/src/hzpch.hpp" />
-        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" />
-        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" />
         <option value="$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp" />
-        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" />
         <option value="$PROJECT_DIR$/Hazel/vendor/GLFW/include/GLFW/glfw3.h" />
         <option value="$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" />
-        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp" />
         <option value="$PROJECT_DIR$/Sandbox/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp" />
         <option value="$PROJECT_DIR$/Hazel/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp" />
+        <option value="$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp" />
       </list>
     </option>
   </component>
@@ -299,57 +717,6 @@
             <path>
               <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
               <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="Platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
-              <item name="Hazel" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="GLFW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GAME_ENGINE_SERIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameEngineSeriesCherno" type="462c0819:PsiDirectoryNode" />
               <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -364,7 +731,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -384,8 +751,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameEngineSeries">
-    <configuration name="GameEngineSeries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="GameEngineSeries" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="SandboxApp">
+  <component name="RunManager" selected="Application.Hazel">
+    <configuration name="GameEngineSeries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="GameEngineSeries" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -400,189 +767,189 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="boing">
+    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="boing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="clipboard">
+    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="clipboard">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="cursor">
+    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="cursor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="empty">
+    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="empty">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="events">
+    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="events">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="gamma">
+    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="gamma">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="gears">
+    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="gears">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="glfw" CONFIG_NAME="Debug">
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="glfw" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="glfwinfo">
+    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="glfwinfo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="heightmap">
+    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="heightmap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icon" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="icon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="icon">
+    <configuration name="icon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="icon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="icon">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="iconify">
+    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="iconify">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inputlag" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="inputlag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="inputlag">
+    <configuration name="inputlag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="inputlag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="inputlag">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="joysticks">
+    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="joysticks">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="monitors">
+    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="monitors">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="msaa">
+    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="msaa">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="offscreen" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="offscreen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="offscreen">
+    <configuration name="offscreen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="offscreen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="offscreen">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opacity" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="opacity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="opacity">
+    <configuration name="opacity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="opacity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="opacity">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="particles">
+    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="particles">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="reopen">
+    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="reopen">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="sharing">
+    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="sharing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="simple">
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="simple">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="splitview">
+    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="splitview">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="tearing">
+    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="tearing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="threads">
+    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="threads">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="timeout" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="timeout" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="timeout">
+    <configuration name="timeout" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="timeout" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="timeout">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="title">
+    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="title">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="wave">
+    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="wave">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="windows">
+    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GAME_ENGINE_SERIES" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GAME_ENGINE_SERIES" RUN_TARGET_NAME="windows">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.splitview" />
+      <item itemvalue="Application.GameEngineSeries" />
+      <item itemvalue="Application.Hazel" />
       <item itemvalue="Application.uninstall" />
-      <item itemvalue="Application.glfw" />
-      <item itemvalue="Application.events" />
-      <item itemvalue="Application.icon" />
-      <item itemvalue="Application.wave" />
-      <item itemvalue="Application.glfwinfo" />
-      <item itemvalue="Application.joysticks" />
-      <item itemvalue="Application.particles" />
-      <item itemvalue="Application.iconify" />
-      <item itemvalue="Application.clipboard" />
-      <item itemvalue="Application.empty" />
-      <item itemvalue="Application.inputlag" />
-      <item itemvalue="Application.gamma" />
-      <item itemvalue="Application.monitors" />
-      <item itemvalue="Application.opacity" />
-      <item itemvalue="Application.simple" />
-      <item itemvalue="Application.title" />
-      <item itemvalue="Application.reopen" />
-      <item itemvalue="Application.cursor" />
-      <item itemvalue="Application.threads" />
-      <item itemvalue="Application.windows" />
-      <item itemvalue="Application.tearing" />
-      <item itemvalue="Application.msaa" />
-      <item itemvalue="Application.timeout" />
       <item itemvalue="Application.boing" />
-      <item itemvalue="Application.sharing" />
       <item itemvalue="Application.gears" />
       <item itemvalue="Application.heightmap" />
       <item itemvalue="Application.offscreen" />
-      <item itemvalue="Application.GameEngineSeries" />
-      <item itemvalue="Application.Hazel" />
+      <item itemvalue="Application.particles" />
+      <item itemvalue="Application.sharing" />
+      <item itemvalue="Application.simple" />
+      <item itemvalue="Application.splitview" />
+      <item itemvalue="Application.wave" />
+      <item itemvalue="Application.glfw" />
+      <item itemvalue="Application.clipboard" />
+      <item itemvalue="Application.cursor" />
+      <item itemvalue="Application.empty" />
+      <item itemvalue="Application.events" />
+      <item itemvalue="Application.gamma" />
+      <item itemvalue="Application.glfwinfo" />
+      <item itemvalue="Application.icon" />
+      <item itemvalue="Application.iconify" />
+      <item itemvalue="Application.inputlag" />
+      <item itemvalue="Application.joysticks" />
+      <item itemvalue="Application.monitors" />
+      <item itemvalue="Application.msaa" />
+      <item itemvalue="Application.opacity" />
+      <item itemvalue="Application.reopen" />
+      <item itemvalue="Application.tearing" />
+      <item itemvalue="Application.threads" />
+      <item itemvalue="Application.timeout" />
+      <item itemvalue="Application.title" />
+      <item itemvalue="Application.windows" />
       <item itemvalue="Application.SandboxApp" />
     </list>
   </component>
@@ -601,11 +968,14 @@
       <workItem from="1545408915080" duration="7453000" />
       <workItem from="1545424563865" duration="1539000" />
       <workItem from="1545427167592" duration="5999000" />
+      <workItem from="1545514325897" duration="6045000" />
+      <workItem from="1545521161715" duration="198000" />
+      <workItem from="1545521409301" duration="10610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47470000" />
+    <option name="totallyTimeSpent" value="64323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,10 +987,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18804781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1971269" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -632,17 +1001,17 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.34263566" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5627907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40553746" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.36744186" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3664495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18804781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1971269" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -654,10 +1023,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.34263566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5627907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42508143" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.36744186" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3664495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -680,38 +1049,16 @@
           <line>10</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp</url>
+          <line>110</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hazel/vendor/spdlog/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-          <folding>
-            <element signature="e#108#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" selection-start-line="28" selection-end-line="30" />
-          <folding>
-            <element signature="e#124#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/spdlog/README.md" />
     <entry file="file://$PROJECT_DIR$/Hazel/src/Application.cpp" />
     <entry file="file://$PROJECT_DIR$/Hazel/src/Application.hpp" />
     <entry file="file://$PROJECT_DIR$/Hazel/src/Core.hpp" />
@@ -735,18 +1082,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hazel/src/Log.hpp" />
     <entry file="file://$PROJECT_DIR$/Hazel/src/Log.cpp" />
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
-          <folding>
-            <element signature="e#120#137#0" expanded="true" />
-            <element signature="e#2051#2063#0" expanded="true" />
-            <element signature="e#2192#2204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -768,16 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
-          <folding>
-            <element signature="e#136#154#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,36 +1157,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/GL/gl.h">
+    <entry file="file:///usr/include/GL/gl.h" />
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11744">
-          <caret line="749" column="22" selection-start-line="749" selection-start-column="22" selection-end-line="749" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#116#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#49#68#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Log.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state>
           <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
           <folding>
             <element signature="e#33#52#0" expanded="true" />
@@ -869,27 +1175,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Window.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#116#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/src/window.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="983" column="62" selection-start-line="983" selection-start-column="52" selection-end-line="983" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/src/input.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="854" column="45" selection-start-line="854" selection-start-column="45" selection-end-line="854" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/include/GLFW/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1385" column="16" selection-start-line="1385" selection-start-column="16" selection-end-line="1385" selection-end-column="16" />
+          <folding>
+            <element signature="e#6335#6361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/MouseEvent.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+          <folding>
+            <element signature="e#124#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/KeyEvent.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/ApplicationEvent.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="e#136#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2189">
+          <caret line="138" column="11" lean-forward="true" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+          <folding>
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Events/Event.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+            <element signature="e#2042#2054#0" expanded="true" />
+            <element signature="e#2183#2195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="93">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/include/GLFW/glfw3.h">
+    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Application.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2642">
-          <caret line="214" column="12" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+        <state relative-caret-position="146">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/vendor/GLFW/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Hazel/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="144">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -897,37 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#39#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hazel/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>

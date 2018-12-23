@@ -27,7 +27,7 @@ public:
     KeyPressedEvent(int keycode, int repeatCount)
       : KeyEvent(keycode), m_RepeatCount(repeatCount) {}
 
-    inline int GetRepeatCount() const { return m_repeatCount; }
+    inline int GetRepeatCount() const { return m_RepeatCount; }
 
     std::string ToString() const override {
         std::stringstream ss;
@@ -52,7 +52,7 @@ class HAZEL_API KeyReleasedEvent : public KeyEvent
         return ss.str();
     }
 
-    Event_CLASS_TYPE(KeyReleased)
+    EVENT_CLASS_TYPE(KeyReleased)
 };
 }
 

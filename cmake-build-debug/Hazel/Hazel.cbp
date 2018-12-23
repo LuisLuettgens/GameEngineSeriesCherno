@@ -4,124 +4,124 @@
 	<Project>
 		<Option title="Hazel"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="clang"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\Hazel\;CMake Files\Hazel\vendor\;CMake Files\Hazel\vendor\GLFW\;CMake Files\Hazel\vendor\GLFW\CMake\;CMake Files\Hazel\vendor\GLFW\CMake\modules\;CMake Files\Hazel\vendor\GLFW\src\;CMake Files\Hazel\vendor\GLFW\examples\;CMake Files\Hazel\vendor\GLFW\tests\;CMake Files\Sandbox\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel"/>
+				<Option working_dir="/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hazel">
-				<Option output="/home/luis/git/GameEngineSeriesCherno/Hazel/lib/libHazel.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel"/>
+				<Option output="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/lib/libHazel.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
-				<Option compiler="clang"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/include"/>
-					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/spdlog/include"/>
-					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/include"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
-					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/include"/>
+					<Add directory="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/spdlog/include"/>
+					<Add directory="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 Hazel"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 Hazel"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hazel/fast">
-				<Option output="/home/luis/git/GameEngineSeriesCherno/Hazel/lib/libHazel.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel"/>
+				<Option output="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/lib/libHazel.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
-				<Option compiler="clang"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/include"/>
-					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/spdlog/include"/>
-					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/include"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
-					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/include"/>
+					<Add directory="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/spdlog/include"/>
+					<Add directory="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 Hazel/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 Hazel/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp">
 			<Option target="Hazel"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Application.hpp">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.hpp">
 			<Option target="Hazel"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp">
 			<Option target="Hazel"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp">
 			<Option target="Hazel"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp">
 			<Option target="Hazel"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.hpp">
 			<Option target="Hazel"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Hazel\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/cmake_uninstall.cmake.in">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/CMake/modules/FindVulkan.cmake">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/CMake/modules/FindVulkan.cmake">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\CMake\modules\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw3.pc.in">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw3Config.cmake.in">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw_config.h.in">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\examples\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\tests\"/>
 		</Unit>
-		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Sandbox/CMakeLists.txt">
+		<Unit filename="/home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Sandbox\"/>
 		</Unit>
 	</Project>
