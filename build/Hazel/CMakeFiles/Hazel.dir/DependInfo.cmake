@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Application.cpp" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+  "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.cpp" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o"
+  "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.cpp" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o"
   "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
   "/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Platform/LinuxWindow.cpp" "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o"
   )

@@ -31,9 +31,22 @@ Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Appli
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Core.hpp
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.hpp
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Events/Event.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Layer.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/LayerStack.hpp
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Log.hpp
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Window.hpp
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/hzpch.hpp
+
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o: ../Hazel/src/Hazel/Core.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o: ../Hazel/src/Hazel/Events/Event.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o: ../Hazel/src/Hazel/Layer.cpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o: ../Hazel/src/Hazel/Layer.hpp
+
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o: ../Hazel/src/Hazel/Core.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o: ../Hazel/src/Hazel/Events/Event.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o: ../Hazel/src/Hazel/Layer.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o: ../Hazel/src/Hazel/LayerStack.cpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o: ../Hazel/src/Hazel/LayerStack.hpp
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common.h
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/details/console_globals.h

@@ -173,7 +173,7 @@ Hazel/vendor/GLFW/src/preinstall:
 Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target glfw"
 .PHONY : Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -318,7 +318,7 @@ clean: Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/clean
 Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=23,24,25 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=24,25,26 "Built target gears"
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/all
 
 # Include target in all.
@@ -355,7 +355,7 @@ clean: Hazel/vendor/GLFW/examples/CMakeFiles/gears.dir/clean
 Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=6,7 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=7,8,9 "Built target boing"
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/all
 
 # Include target in all.
@@ -365,7 +365,7 @@ all: Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/rule
@@ -392,7 +392,7 @@ clean: Hazel/vendor/GLFW/examples/CMakeFiles/boing.dir/clean
 Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=43,44,45 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=44,45,46 "Built target heightmap"
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/heightmap.dir/all
 
 # Include target in all.
@@ -466,7 +466,7 @@ clean: Hazel/vendor/GLFW/examples/CMakeFiles/splitview.dir/clean
 Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=64,65,66 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=65,66 "Built target offscreen"
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/all
 
 # Include target in all.
@@ -476,7 +476,7 @@ all: Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/rule
@@ -503,7 +503,7 @@ clean: Hazel/vendor/GLFW/examples/CMakeFiles/offscreen.dir/clean
 Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=69,70,71,72,73 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=70,71,72,73 "Built target particles"
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/all
 
 # Include target in all.
@@ -513,7 +513,7 @@ all: Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/rule
@@ -540,7 +540,7 @@ clean: Hazel/vendor/GLFW/examples/CMakeFiles/particles.dir/clean
 Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=76,77,78 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=77,78 "Built target sharing"
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/all
 
 # Include target in all.
@@ -550,7 +550,7 @@ all: Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/sharing.dir/rule
@@ -705,7 +705,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/timeout.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=58,59,60 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=58,59,60,61 "Built target monitors"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/all
 
 # Include target in all.
@@ -715,7 +715,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/rule
@@ -742,7 +742,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/monitors.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=8,9,10 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=10,11,12 "Built target clipboard"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/all
 
 # Include target in all.
@@ -779,7 +779,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/clipboard.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=11,12,13 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=13,14 "Built target cursor"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/all
 
 # Include target in all.
@@ -789,7 +789,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/rule
@@ -816,7 +816,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/cursor.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=61,62,63 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=62,63,64 "Built target msaa"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/all
 
 # Include target in all.
@@ -853,7 +853,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/msaa.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=40,41,42 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=41,42,43 "Built target glfwinfo"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/all
 
 # Include target in all.
@@ -927,7 +927,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/threads.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=74,75 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=74,75,76 "Built target reopen"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/all
 
 # Include target in all.
@@ -937,7 +937,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/rule
@@ -964,7 +964,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/reopen.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=67,68 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=67,68,69 "Built target opacity"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/all
 
 # Include target in all.
@@ -974,7 +974,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/rule
@@ -1001,7 +1001,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/opacity.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=48,49,50,51 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=49,50,51,52 "Built target iconify"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/all
 
 # Include target in all.
@@ -1038,7 +1038,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/iconify.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=21,22 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=22,23 "Built target gamma"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/all
 
 # Include target in all.
@@ -1075,7 +1075,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/gamma.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=17,18,19,20 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=19,20,21 "Built target events"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/all
 
 # Include target in all.
@@ -1085,7 +1085,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/rule
@@ -1112,7 +1112,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/events.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=46,47 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=47,48 "Built target icon"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/all
 
 # Include target in all.
@@ -1149,7 +1149,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/icon.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=55,56,57 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=56,57 "Built target joysticks"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/all
 
 # Include target in all.
@@ -1159,7 +1159,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/joysticks.dir/rule
@@ -1223,7 +1223,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/windows.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=14,15,16 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=15,16,17,18 "Built target empty"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/all
 
 # Include target in all.
@@ -1233,7 +1233,7 @@ all: Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/rule
@@ -1260,7 +1260,7 @@ clean: Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/clean
 Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=52,53,54 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=53,54,55 "Built target inputlag"
 .PHONY : Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/all
 
 # Include target in all.
@@ -1352,7 +1352,7 @@ Hazel/preinstall:
 Hazel/CMakeFiles/Hazel.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/depend
 	$(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=1,2,3 "Built target Hazel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=1,2,3,4 "Built target Hazel"
 .PHONY : Hazel/CMakeFiles/Hazel.dir/all
 
 # Include target in all.
@@ -1362,7 +1362,7 @@ all: Hazel/CMakeFiles/Hazel.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/CMakeFiles/Hazel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : Hazel/CMakeFiles/Hazel.dir/rule
@@ -1407,7 +1407,7 @@ Sandbox/preinstall:
 Sandbox/CMakeFiles/SandboxApp.dir/all:
 	$(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/depend
 	$(MAKE) -f Sandbox/CMakeFiles/SandboxApp.dir/build.make Sandbox/CMakeFiles/SandboxApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=4,5 "Built target SandboxApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles --progress-num=5,6 "Built target SandboxApp"
 .PHONY : Sandbox/CMakeFiles/SandboxApp.dir/all
 
 # Include target in all.

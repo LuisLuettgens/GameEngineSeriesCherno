@@ -451,6 +451,8 @@ Events/ApplicationEvent.hpp
 /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
 Window.hpp
 /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
+LayerStack.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.hpp
 ../hzpch.hpp
 /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
 
@@ -483,6 +485,28 @@ sstream
 -
 Event.hpp
 /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.cpp
+Layer.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.hpp
+
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.hpp
+Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+Events/Event.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.cpp
+LayerStack.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.hpp
+
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.hpp
+Core.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+Layer.hpp
+/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.hpp
+vector
+-
 
 /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.cpp
 Log.hpp

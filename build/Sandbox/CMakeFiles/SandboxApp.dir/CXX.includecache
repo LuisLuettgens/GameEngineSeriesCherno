@@ -23,6 +23,8 @@ Events/ApplicationEvent.hpp
 ../Sandbox/../Hazel/src/Hazel/Events/ApplicationEvent.hpp
 Window.hpp
 ../Sandbox/../Hazel/src/Hazel/Window.hpp
+LayerStack.hpp
+../Sandbox/../Hazel/src/Hazel/LayerStack.hpp
 ../hzpch.hpp
 ../Sandbox/../Hazel/src/hzpch.hpp
 
@@ -45,6 +47,20 @@ functional
 -
 ../Core.hpp
 ../Sandbox/../Hazel/src/Hazel/Core.hpp
+
+../Sandbox/../Hazel/src/Hazel/Layer.hpp
+Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
+Events/Event.hpp
+../Sandbox/../Hazel/src/Hazel/Events/Event.hpp
+
+../Sandbox/../Hazel/src/Hazel/LayerStack.hpp
+Core.hpp
+../Sandbox/../Hazel/src/Hazel/Core.hpp
+Layer.hpp
+../Sandbox/../Hazel/src/Hazel/Layer.hpp
+vector
+-
 
 ../Sandbox/../Hazel/src/Hazel/Log.hpp
 Core.hpp

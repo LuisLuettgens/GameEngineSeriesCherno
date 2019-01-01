@@ -4,6 +4,7 @@
     // For use by Hazel applications
     #include "Hazel/Application.hpp"
 
+    #include "Hazel/Layer.hpp"
     // For Logging purposes
     #include "Hazel/Log.hpp"
 

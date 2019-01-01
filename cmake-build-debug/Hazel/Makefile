@@ -198,6 +198,87 @@ src/Hazel/Application.cpp.s:
 	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
 .PHONY : src/Hazel/Application.cpp.s
 
+src/Hazel/ImGuiLayer.o: src/Hazel/ImGuiLayer.cpp.o
+
+.PHONY : src/Hazel/ImGuiLayer.o
+
+# target to build an object file
+src/Hazel/ImGuiLayer.cpp.o:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/ImGuiLayer.cpp.o
+.PHONY : src/Hazel/ImGuiLayer.cpp.o
+
+src/Hazel/ImGuiLayer.i: src/Hazel/ImGuiLayer.cpp.i
+
+.PHONY : src/Hazel/ImGuiLayer.i
+
+# target to preprocess a source file
+src/Hazel/ImGuiLayer.cpp.i:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/ImGuiLayer.cpp.i
+.PHONY : src/Hazel/ImGuiLayer.cpp.i
+
+src/Hazel/ImGuiLayer.s: src/Hazel/ImGuiLayer.cpp.s
+
+.PHONY : src/Hazel/ImGuiLayer.s
+
+# target to generate assembly for a file
+src/Hazel/ImGuiLayer.cpp.s:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/ImGuiLayer.cpp.s
+.PHONY : src/Hazel/ImGuiLayer.cpp.s
+
+src/Hazel/Layer.o: src/Hazel/Layer.cpp.o
+
+.PHONY : src/Hazel/Layer.o
+
+# target to build an object file
+src/Hazel/Layer.cpp.o:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o
+.PHONY : src/Hazel/Layer.cpp.o
+
+src/Hazel/Layer.i: src/Hazel/Layer.cpp.i
+
+.PHONY : src/Hazel/Layer.i
+
+# target to preprocess a source file
+src/Hazel/Layer.cpp.i:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.i
+.PHONY : src/Hazel/Layer.cpp.i
+
+src/Hazel/Layer.s: src/Hazel/Layer.cpp.s
+
+.PHONY : src/Hazel/Layer.s
+
+# target to generate assembly for a file
+src/Hazel/Layer.cpp.s:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.s
+.PHONY : src/Hazel/Layer.cpp.s
+
+src/Hazel/LayerStack.o: src/Hazel/LayerStack.cpp.o
+
+.PHONY : src/Hazel/LayerStack.o
+
+# target to build an object file
+src/Hazel/LayerStack.cpp.o:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o
+.PHONY : src/Hazel/LayerStack.cpp.o
+
+src/Hazel/LayerStack.i: src/Hazel/LayerStack.cpp.i
+
+.PHONY : src/Hazel/LayerStack.i
+
+# target to preprocess a source file
+src/Hazel/LayerStack.cpp.i:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.i
+.PHONY : src/Hazel/LayerStack.cpp.i
+
+src/Hazel/LayerStack.s: src/Hazel/LayerStack.cpp.s
+
+.PHONY : src/Hazel/LayerStack.s
+
+# target to generate assembly for a file
+src/Hazel/LayerStack.cpp.s:
+	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.s
+.PHONY : src/Hazel/LayerStack.cpp.s
+
 src/Hazel/Log.o: src/Hazel/Log.cpp.o
 
 .PHONY : src/Hazel/Log.o
@@ -268,6 +349,15 @@ help:
 	@echo "... src/Hazel/Application.o"
 	@echo "... src/Hazel/Application.i"
 	@echo "... src/Hazel/Application.s"
+	@echo "... src/Hazel/ImGuiLayer.o"
+	@echo "... src/Hazel/ImGuiLayer.i"
+	@echo "... src/Hazel/ImGuiLayer.s"
+	@echo "... src/Hazel/Layer.o"
+	@echo "... src/Hazel/Layer.i"
+	@echo "... src/Hazel/Layer.s"
+	@echo "... src/Hazel/LayerStack.o"
+	@echo "... src/Hazel/LayerStack.i"
+	@echo "... src/Hazel/LayerStack.s"
 	@echo "... src/Hazel/Log.o"
 	@echo "... src/Hazel/Log.i"
 	@echo "... src/Hazel/Log.s"

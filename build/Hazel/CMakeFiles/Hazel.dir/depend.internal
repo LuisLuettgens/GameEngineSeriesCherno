@@ -32,9 +32,22 @@ Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
  /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
  /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/ApplicationEvent.hpp
  /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.hpp
  /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Log.hpp
  /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Window.hpp
  /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/hzpch.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.cpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.hpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Core.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Events/Event.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/Layer.hpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.cpp
+ /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/src/Hazel/LayerStack.hpp
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/common.h
  ../Hazel/vendor/spdlog/include/spdlog/details/console_globals.h
