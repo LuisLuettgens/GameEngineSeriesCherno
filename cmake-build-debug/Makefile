@@ -48,10 +48,10 @@ RM = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
+CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -560,6 +560,32 @@ tearing/fast:
 .PHONY : tearing/fast
 
 #=============================================================================
+# Target rules for targets named GLAD
+
+# Build rule for target.
+GLAD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLAD
+.PHONY : GLAD
+
+# fast build rule for target.
+GLAD/fast:
+	$(MAKE) -f Hazel/vendor/GLAD/CMakeFiles/GLAD.dir/build.make Hazel/vendor/GLAD/CMakeFiles/GLAD.dir/build
+.PHONY : GLAD/fast
+
+#=============================================================================
+# Target rules for targets named IMGUI
+
+# Build rule for target.
+IMGUI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IMGUI
+.PHONY : IMGUI
+
+# fast build rule for target.
+IMGUI/fast:
+	$(MAKE) -f Hazel/vendor/imgui/CMakeFiles/IMGUI.dir/build.make Hazel/vendor/imgui/CMakeFiles/IMGUI.dir/build
+.PHONY : IMGUI/fast
+
+#=============================================================================
 # Target rules for targets named Hazel
 
 # Build rule for target.
@@ -628,6 +654,8 @@ help:
 	@echo "... empty"
 	@echo "... inputlag"
 	@echo "... tearing"
+	@echo "... GLAD"
+	@echo "... IMGUI"
 	@echo "... Hazel"
 	@echo "... SandboxApp"
 .PHONY : help

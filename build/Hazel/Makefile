@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/build
+CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles /home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/CMakeFiles/progress.marks
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles 0
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/build/CMakeFiles /home/luis/git/GameEngineSeriesCherno/build/Hazel/CMakeFiles/progress.marks
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/git/GameEngineSeriesCherno/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/clean
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Hazel/CMakeFiles/Hazel.dir/rule:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel.dir/rule
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel.dir/rule
 .PHONY : Hazel/CMakeFiles/Hazel.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Hazel: Hazel/CMakeFiles/Hazel.dir/rule
 
 # fast build rule for target.
 Hazel/fast:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
 .PHONY : Hazel/fast
 
 src/Hazel/Application.o: src/Hazel/Application.cpp.o
@@ -177,7 +177,7 @@ src/Hazel/Application.o: src/Hazel/Application.cpp.o
 
 # target to build an object file
 src/Hazel/Application.cpp.o:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
 .PHONY : src/Hazel/Application.cpp.o
 
 src/Hazel/Application.i: src/Hazel/Application.cpp.i
@@ -186,7 +186,7 @@ src/Hazel/Application.i: src/Hazel/Application.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Application.cpp.i:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
 .PHONY : src/Hazel/Application.cpp.i
 
 src/Hazel/Application.s: src/Hazel/Application.cpp.s
@@ -195,8 +195,35 @@ src/Hazel/Application.s: src/Hazel/Application.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Application.cpp.s:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
 .PHONY : src/Hazel/Application.cpp.s
+
+src/Hazel/ImGui/ImGuiLayer.o: src/Hazel/ImGui/ImGuiLayer.cpp.o
+
+.PHONY : src/Hazel/ImGui/ImGuiLayer.o
+
+# target to build an object file
+src/Hazel/ImGui/ImGuiLayer.cpp.o:
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/ImGui/ImGuiLayer.cpp.o
+.PHONY : src/Hazel/ImGui/ImGuiLayer.cpp.o
+
+src/Hazel/ImGui/ImGuiLayer.i: src/Hazel/ImGui/ImGuiLayer.cpp.i
+
+.PHONY : src/Hazel/ImGui/ImGuiLayer.i
+
+# target to preprocess a source file
+src/Hazel/ImGui/ImGuiLayer.cpp.i:
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/ImGui/ImGuiLayer.cpp.i
+.PHONY : src/Hazel/ImGui/ImGuiLayer.cpp.i
+
+src/Hazel/ImGui/ImGuiLayer.s: src/Hazel/ImGui/ImGuiLayer.cpp.s
+
+.PHONY : src/Hazel/ImGui/ImGuiLayer.s
+
+# target to generate assembly for a file
+src/Hazel/ImGui/ImGuiLayer.cpp.s:
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/ImGui/ImGuiLayer.cpp.s
+.PHONY : src/Hazel/ImGui/ImGuiLayer.cpp.s
 
 src/Hazel/Layer.o: src/Hazel/Layer.cpp.o
 
@@ -204,7 +231,7 @@ src/Hazel/Layer.o: src/Hazel/Layer.cpp.o
 
 # target to build an object file
 src/Hazel/Layer.cpp.o:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o
 .PHONY : src/Hazel/Layer.cpp.o
 
 src/Hazel/Layer.i: src/Hazel/Layer.cpp.i
@@ -213,7 +240,7 @@ src/Hazel/Layer.i: src/Hazel/Layer.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Layer.cpp.i:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.i
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.i
 .PHONY : src/Hazel/Layer.cpp.i
 
 src/Hazel/Layer.s: src/Hazel/Layer.cpp.s
@@ -222,7 +249,7 @@ src/Hazel/Layer.s: src/Hazel/Layer.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Layer.cpp.s:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.s
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.s
 .PHONY : src/Hazel/Layer.cpp.s
 
 src/Hazel/LayerStack.o: src/Hazel/LayerStack.cpp.o
@@ -231,7 +258,7 @@ src/Hazel/LayerStack.o: src/Hazel/LayerStack.cpp.o
 
 # target to build an object file
 src/Hazel/LayerStack.cpp.o:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o
 .PHONY : src/Hazel/LayerStack.cpp.o
 
 src/Hazel/LayerStack.i: src/Hazel/LayerStack.cpp.i
@@ -240,7 +267,7 @@ src/Hazel/LayerStack.i: src/Hazel/LayerStack.cpp.i
 
 # target to preprocess a source file
 src/Hazel/LayerStack.cpp.i:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.i
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.i
 .PHONY : src/Hazel/LayerStack.cpp.i
 
 src/Hazel/LayerStack.s: src/Hazel/LayerStack.cpp.s
@@ -249,7 +276,7 @@ src/Hazel/LayerStack.s: src/Hazel/LayerStack.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/LayerStack.cpp.s:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.s
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.s
 .PHONY : src/Hazel/LayerStack.cpp.s
 
 src/Hazel/Log.o: src/Hazel/Log.cpp.o
@@ -258,7 +285,7 @@ src/Hazel/Log.o: src/Hazel/Log.cpp.o
 
 # target to build an object file
 src/Hazel/Log.cpp.o:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
 .PHONY : src/Hazel/Log.cpp.o
 
 src/Hazel/Log.i: src/Hazel/Log.cpp.i
@@ -267,7 +294,7 @@ src/Hazel/Log.i: src/Hazel/Log.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Log.cpp.i:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
 .PHONY : src/Hazel/Log.cpp.i
 
 src/Hazel/Log.s: src/Hazel/Log.cpp.s
@@ -276,7 +303,7 @@ src/Hazel/Log.s: src/Hazel/Log.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Log.cpp.s:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
 .PHONY : src/Hazel/Log.cpp.s
 
 src/Hazel/Platform/LinuxWindow.o: src/Hazel/Platform/LinuxWindow.cpp.o
@@ -285,7 +312,7 @@ src/Hazel/Platform/LinuxWindow.o: src/Hazel/Platform/LinuxWindow.cpp.o
 
 # target to build an object file
 src/Hazel/Platform/LinuxWindow.cpp.o:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.o
 .PHONY : src/Hazel/Platform/LinuxWindow.cpp.o
 
 src/Hazel/Platform/LinuxWindow.i: src/Hazel/Platform/LinuxWindow.cpp.i
@@ -294,7 +321,7 @@ src/Hazel/Platform/LinuxWindow.i: src/Hazel/Platform/LinuxWindow.cpp.i
 
 # target to preprocess a source file
 src/Hazel/Platform/LinuxWindow.cpp.i:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.i
 .PHONY : src/Hazel/Platform/LinuxWindow.cpp.i
 
 src/Hazel/Platform/LinuxWindow.s: src/Hazel/Platform/LinuxWindow.cpp.s
@@ -303,8 +330,35 @@ src/Hazel/Platform/LinuxWindow.s: src/Hazel/Platform/LinuxWindow.cpp.s
 
 # target to generate assembly for a file
 src/Hazel/Platform/LinuxWindow.cpp.s:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/LinuxWindow.cpp.s
 .PHONY : src/Hazel/Platform/LinuxWindow.cpp.s
+
+src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.o: src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.o
+
+.PHONY : src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.o
+
+# target to build an object file
+src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.o:
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.o
+.PHONY : src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.o
+
+src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.i: src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i
+
+.PHONY : src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.i
+
+# target to preprocess a source file
+src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i:
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i
+.PHONY : src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i
+
+src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.s: src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s
+
+.PHONY : src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.s
+
+# target to generate assembly for a file
+src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s:
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s
+.PHONY : src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s
 
 # Help Target
 help:
@@ -322,6 +376,9 @@ help:
 	@echo "... src/Hazel/Application.o"
 	@echo "... src/Hazel/Application.i"
 	@echo "... src/Hazel/Application.s"
+	@echo "... src/Hazel/ImGui/ImGuiLayer.o"
+	@echo "... src/Hazel/ImGui/ImGuiLayer.i"
+	@echo "... src/Hazel/ImGui/ImGuiLayer.s"
 	@echo "... src/Hazel/Layer.o"
 	@echo "... src/Hazel/Layer.i"
 	@echo "... src/Hazel/Layer.s"
@@ -334,6 +391,9 @@ help:
 	@echo "... src/Hazel/Platform/LinuxWindow.o"
 	@echo "... src/Hazel/Platform/LinuxWindow.i"
 	@echo "... src/Hazel/Platform/LinuxWindow.s"
+	@echo "... src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.o"
+	@echo "... src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.i"
+	@echo "... src/Hazel/Platform/OpenGL/ImGuiOpenGLRenderer.s"
 .PHONY : help
 
 
@@ -345,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

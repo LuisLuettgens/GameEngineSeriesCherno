@@ -12,4 +12,6 @@
     #include "Hazel/EntryPoint.hpp"
     // ----------------------------------
 
+    #include "Hazel/ImGui/ImGuiLayer.hpp"
+
 #endif

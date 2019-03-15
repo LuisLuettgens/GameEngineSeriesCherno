@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/build
+CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/build
 
 # Utility rule file for GameEngineSeries.
 
@@ -67,6 +67,6 @@ CMakeFiles/GameEngineSeries.dir/clean:
 .PHONY : CMakeFiles/GameEngineSeries.dir/clean
 
 CMakeFiles/GameEngineSeries.dir/depend:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/CLionProjects/GameEngineSeriesCherno /home/luis/CLionProjects/GameEngineSeriesCherno /home/luis/CLionProjects/GameEngineSeriesCherno/build /home/luis/CLionProjects/GameEngineSeriesCherno/build /home/luis/CLionProjects/GameEngineSeriesCherno/build/CMakeFiles/GameEngineSeries.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/git/GameEngineSeriesCherno/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/git/GameEngineSeriesCherno /home/luis/git/GameEngineSeriesCherno /home/luis/git/GameEngineSeriesCherno/build /home/luis/git/GameEngineSeriesCherno/build /home/luis/git/GameEngineSeriesCherno/build/CMakeFiles/GameEngineSeries.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GameEngineSeries.dir/depend
 

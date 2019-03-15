@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -g -pthread -lGL -lGLU
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox/../Hazel/vendor/spdlog/include -I/home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox/../Hazel/include -I/home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox/../Hazel/src 
+CXX_INCLUDES = -I/home/luis/git/GameEngineSeriesCherno/Sandbox/../Hazel/vendor/spdlog/include -I/home/luis/git/GameEngineSeriesCherno/Sandbox/../Hazel/include -I/home/luis/git/GameEngineSeriesCherno/Sandbox/../Hazel/src 
 

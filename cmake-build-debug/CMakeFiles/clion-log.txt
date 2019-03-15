@@ -1,8 +1,12 @@
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/luis/CLionProjects/GameEngineSeriesCherno
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/luis/git/GameEngineSeriesCherno
 Entering GameEngineSeries...
 -- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using X11 for window creation
+Entering Glad...
+Glad done!
+Entering ImGui...
+Imgui done!
 Entering Hazel...
 Hazel done!
 Entering SandboxApp...
@@ -10,4 +14,4 @@ SandboxApp done!
 GameEngineSeries done!
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
+-- Build files have been written to: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -pthread -g -fPIC
 
 CXX_DEFINES = -DHazel_EXPORTS
 
-CXX_INCLUDES = -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/include -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/spdlog/include -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/include 
+CXX_INCLUDES = -I/home/luis/git/GameEngineSeriesCherno/Hazel/include -I/home/luis/git/GameEngineSeriesCherno/Hazel -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/spdlog/include -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/include -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/include -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/imgui 
 

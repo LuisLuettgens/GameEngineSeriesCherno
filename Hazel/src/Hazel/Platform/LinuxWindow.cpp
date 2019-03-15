@@ -9,6 +9,8 @@
 #include "../Events/KeyEvent.hpp"
 #include "../Events/ApplicationEvent.hpp"
 
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 namespace Hazel {
 
     static bool s_GLFWInitialized = false;
@@ -52,6 +54,10 @@ namespace Hazel {
 
         m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
         glfwMakeContextCurrent(m_Window);
+
+        int status = gladLoadGLLoader(reinterpret_cast<GLADloadproc>( glfwGetProcAddress));
+
+        HZ_CORE_ASSERT(status, "Failed to initialize glad!");
 
         glClearColor(1,0,1,1);
         glClear(GL_COLOR_BUFFER_BIT);

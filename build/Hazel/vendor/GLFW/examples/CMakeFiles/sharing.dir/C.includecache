@@ -130,7 +130,7 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -140,7 +140,7 @@ string.h
 glad/glad.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/sharing.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/sharing.c
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -150,7 +150,7 @@ stdio.h
 stdlib.h
 -
 getopt.h
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/getopt.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/getopt.h
 linmath.h
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/linmath.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/linmath.h
 

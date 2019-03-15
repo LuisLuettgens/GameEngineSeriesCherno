@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../Hazel/CMakeLists.txt"
+  "../Hazel/vendor/GLAD/CMakeLists.txt"
   "../Hazel/vendor/GLFW/CMake/modules/FindVulkan.cmake"
   "../Hazel/vendor/GLFW/CMakeLists.txt"
   "../Hazel/vendor/GLFW/cmake_uninstall.cmake.in"
@@ -18,6 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Hazel/vendor/GLFW/src/glfw3Config.cmake.in"
   "../Hazel/vendor/GLFW/src/glfw_config.h.in"
   "../Hazel/vendor/GLFW/tests/CMakeLists.txt"
+  "../Hazel/vendor/imgui/CMakeLists.txt"
   "../Sandbox/CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
@@ -65,6 +67,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Hazel/vendor/GLFW/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/vendor/GLFW/examples/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/vendor/GLFW/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Hazel/vendor/GLAD/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Hazel/vendor/imgui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -102,6 +106,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake"
   "Hazel/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake"
   "Hazel/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake"
+  "Hazel/vendor/GLAD/CMakeFiles/GLAD.dir/DependInfo.cmake"
+  "Hazel/vendor/imgui/CMakeFiles/IMGUI.dir/DependInfo.cmake"
   "Hazel/CMakeFiles/Hazel.dir/DependInfo.cmake"
   "Sandbox/CMakeFiles/SandboxApp.dir/DependInfo.cmake"
   )

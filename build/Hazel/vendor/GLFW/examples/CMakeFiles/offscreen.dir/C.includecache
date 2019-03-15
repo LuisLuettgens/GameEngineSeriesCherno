@@ -162,7 +162,7 @@ EGL/egl.h
 GL/osmesa.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -172,7 +172,7 @@ string.h
 glad/glad.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/offscreen.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/offscreen.c
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -180,7 +180,7 @@ GLFW/glfw3.h
 GLFW/glfw3native.h
 -
 linmath.h
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/linmath.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/linmath.h
 stdlib.h
 -
 stdio.h

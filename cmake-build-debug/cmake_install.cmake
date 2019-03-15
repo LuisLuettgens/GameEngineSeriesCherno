@@ -1,4 +1,4 @@
-# Install script for directory: /home/luis/CLionProjects/GameEngineSeriesCherno
+# Install script for directory: /home/luis/git/GameEngineSeriesCherno
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/cmake_install.cmake")
-  include("/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/cmake_install.cmake")
-  include("/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Sandbox/cmake_install.cmake")
+  include("/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/cmake_install.cmake")
+  include("/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/cmake_install.cmake")
+  include("/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/imgui/cmake_install.cmake")
+  include("/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/cmake_install.cmake")
+  include("/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Sandbox/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

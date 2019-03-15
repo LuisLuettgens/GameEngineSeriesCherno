@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-43-generic - x86_64
+The system is: Linux - 4.15.0-46-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73fe9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73fe9.dir/build.make CMakeFiles/cmTC_73fe9.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73fe9.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_73fe9.dir/testCCompiler.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_73fe9
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73fe9.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_73fe9.dir/testCCompiler.c.o  -o cmTC_73fe9 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_54369/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54369.dir/build.make CMakeFiles/cmTC_54369.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54369.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_54369.dir/testCCompiler.c.o   -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_54369
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54369.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_54369.dir/testCCompiler.c.o  -o cmTC_54369 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60488/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60488.dir/build.make CMakeFiles/cmTC_60488.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_60488
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60488.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o  -o cmTC_60488 
+Run Build Command:"/usr/bin/make" "cmTC_fe21e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe21e.dir/build.make CMakeFiles/cmTC_fe21e.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fe21e
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe21e.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o  -o cmTC_fe21e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60488' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDJ0O5d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_60488 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60488' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe21e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1x94PA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fe21e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe21e' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_60488/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_60488.dir/build.make CMakeFiles/cmTC_60488.dir/build]
-  ignore line: [make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_60488]
-  ignore line: [/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60488.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o  -o cmTC_60488 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fe21e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fe21e.dir/build.make CMakeFiles/cmTC_fe21e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fe21e]
+  ignore line: [/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe21e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o  -o cmTC_fe21e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60488' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDJ0O5d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_60488 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe21e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1x94PA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fe21e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDJ0O5d.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1x94PA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_60488] ==> ignore
+    arg [cmTC_fe21e] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_60488.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_fe21e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d4dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d4dc.dir/build.make CMakeFiles/cmTC_6d4dc.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d4dc.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_6d4dc.dir/feature_tests.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6d4dc
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d4dc.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_6d4dc.dir/feature_tests.c.o  -o cmTC_6d4dc 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5fe99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fe99.dir/build.make CMakeFiles/cmTC_5fe99.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fe99.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5fe99.dir/feature_tests.c.o   -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5fe99
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe99.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5fe99.dir/feature_tests.c.o  -o cmTC_5fe99 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1577d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1577d.dir/build.make CMakeFiles/cmTC_1577d.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1577d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1577d.dir/feature_tests.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1577d
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1577d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_1577d.dir/feature_tests.c.o  -o cmTC_1577d 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_68656/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68656.dir/build.make CMakeFiles/cmTC_68656.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68656.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_68656.dir/feature_tests.c.o   -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_68656
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68656.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_68656.dir/feature_tests.c.o  -o cmTC_68656 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9053c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9053c.dir/build.make CMakeFiles/cmTC_9053c.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9053c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_9053c.dir/feature_tests.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9053c
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9053c.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_9053c.dir/feature_tests.c.o  -o cmTC_9053c 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d2d8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2d8d.dir/build.make CMakeFiles/cmTC_d2d8d.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2d8d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d2d8d.dir/feature_tests.c.o   -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d2d8d
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d8d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d2d8d.dir/feature_tests.c.o  -o cmTC_d2d8d 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88103/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88103.dir/build.make CMakeFiles/cmTC_88103.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88103.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_88103.dir/testCXXCompiler.cxx.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_88103
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88103.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_88103.dir/testCXXCompiler.cxx.o  -o cmTC_88103 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_920f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_920f8.dir/build.make CMakeFiles/cmTC_920f8.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_920f8.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_920f8.dir/testCXXCompiler.cxx.o -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_920f8
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_920f8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_920f8.dir/testCXXCompiler.cxx.o  -o cmTC_920f8 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_944a7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_944a7.dir/build.make CMakeFiles/cmTC_944a7.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_944a7
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_944a7.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_944a7 
+Run Build Command:"/usr/bin/make" "cmTC_dd45c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd45c.dir/build.make CMakeFiles/cmTC_dd45c.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_dd45c
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd45c.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dd45c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_944a7' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMBOZOD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_944a7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_944a7' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd45c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGCogd3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dd45c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd45c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_944a7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_944a7.dir/build.make CMakeFiles/cmTC_944a7.dir/build]
-  ignore line: [make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_944a7]
-  ignore line: [/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_944a7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_944a7 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dd45c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dd45c.dir/build.make CMakeFiles/cmTC_dd45c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_dd45c]
+  ignore line: [/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd45c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dd45c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_944a7' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMBOZOD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_944a7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd45c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGCogd3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dd45c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMBOZOD.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGCogd3.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_944a7] ==> ignore
+    arg [cmTC_dd45c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_944a7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_dd45c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c252f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c252f.dir/build.make CMakeFiles/cmTC_c252f.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c252f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c252f.dir/feature_tests.cxx.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c252f
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c252f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c252f.dir/feature_tests.cxx.o  -o cmTC_c252f 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f5efe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5efe.dir/build.make CMakeFiles/cmTC_f5efe.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5efe.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f5efe.dir/feature_tests.cxx.o -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f5efe
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5efe.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f5efe.dir/feature_tests.cxx.o  -o cmTC_f5efe 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98d39/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98d39.dir/build.make CMakeFiles/cmTC_98d39.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_98d39.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_98d39.dir/feature_tests.cxx.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_98d39
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d39.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_98d39.dir/feature_tests.cxx.o  -o cmTC_98d39 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f14f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f14f3.dir/build.make CMakeFiles/cmTC_f14f3.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f14f3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f14f3.dir/feature_tests.cxx.o -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f14f3
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f14f3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f14f3.dir/feature_tests.cxx.o  -o cmTC_f14f3 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6f83/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6f83.dir/build.make CMakeFiles/cmTC_b6f83.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b6f83.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b6f83.dir/feature_tests.cxx.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b6f83
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6f83.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_b6f83.dir/feature_tests.cxx.o  -o cmTC_b6f83 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dd9c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd9c5.dir/build.make CMakeFiles/cmTC_dd9c5.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dd9c5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_dd9c5.dir/feature_tests.cxx.o -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dd9c5
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9c5.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_dd9c5.dir/feature_tests.cxx.o  -o cmTC_dd9c5 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d7654/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d7654.dir/build.make CMakeFiles/cmTC_d7654.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d7654.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d7654.dir/feature_tests.cxx.o -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d7654
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7654.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_d7654.dir/feature_tests.cxx.o  -o cmTC_d7654 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0818c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0818c.dir/build.make CMakeFiles/cmTC_0818c.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0818c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_0818c.dir/feature_tests.cxx.o -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0818c
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0818c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0818c.dir/feature_tests.cxx.o  -o cmTC_0818c 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,114 +632,114 @@ make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmak
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1b9d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1b9d.dir/build.make CMakeFiles/cmTC_b1b9d.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b1b9d.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b1b9d.dir/CheckIncludeFile.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b1b9d
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1b9d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b1b9d.dir/CheckIncludeFile.c.o  -o cmTC_b1b9d 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e2384/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2384.dir/build.make CMakeFiles/cmTC_e2384.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2384.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e2384.dir/CheckIncludeFile.c.o   -c /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e2384
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2384.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e2384.dir/CheckIncludeFile.c.o  -o cmTC_e2384 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb295/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb295.dir/build.make CMakeFiles/cmTC_eb295.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb295.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eb295.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eb295
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb295.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eb295.dir/CheckFunctionExists.c.o  -o cmTC_eb295 -lpthread 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_52582/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52582.dir/build.make CMakeFiles/cmTC_52582.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52582.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_52582.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52582
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52582.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_52582.dir/CheckFunctionExists.c.o  -o cmTC_52582 -lpthread 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
-Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b917a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b917a.dir/build.make CMakeFiles/cmTC_b917a.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b917a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_b917a.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b917a
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b917a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_b917a.dir/CheckFunctionExists.c.o  -o cmTC_b917a /usr/lib/x86_64-linux-gnu/libX11.so 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_755dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_755dd.dir/build.make CMakeFiles/cmTC_755dd.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_755dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_755dd.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_755dd
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_755dd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_755dd.dir/CheckFunctionExists.c.o  -o cmTC_755dd /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ae45/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ae45.dir/build.make CMakeFiles/cmTC_1ae45.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1ae45.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_1ae45.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1ae45
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ae45.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_1ae45.dir/CheckFunctionExists.c.o  -o cmTC_1ae45 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4bd72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bd72.dir/build.make CMakeFiles/cmTC_4bd72.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bd72.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_4bd72.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4bd72
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bd72.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_4bd72.dir/CheckFunctionExists.c.o  -o cmTC_4bd72 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0754/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0754.dir/build.make CMakeFiles/cmTC_c0754.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c0754.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_c0754.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c0754
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0754.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_c0754.dir/CheckFunctionExists.c.o  -o cmTC_c0754 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_19b8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19b8c.dir/build.make CMakeFiles/cmTC_19b8c.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19b8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_19b8c.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19b8c
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19b8c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_19b8c.dir/CheckFunctionExists.c.o  -o cmTC_19b8c 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2d34/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2d34.dir/build.make CMakeFiles/cmTC_a2d34.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2d34.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_a2d34.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a2d34
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2d34.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_a2d34.dir/CheckFunctionExists.c.o  -o cmTC_a2d34 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2ccf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ccf9.dir/build.make CMakeFiles/cmTC_2ccf9.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ccf9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_2ccf9.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ccf9
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ccf9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_2ccf9.dir/CheckFunctionExists.c.o  -o cmTC_2ccf9 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_05276/fast"
-/usr/bin/make -f CMakeFiles/cmTC_05276.dir/build.make CMakeFiles/cmTC_05276.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_05276.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_05276.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_05276
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05276.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_05276.dir/CheckFunctionExists.c.o  -o cmTC_05276 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8c9e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c9e9.dir/build.make CMakeFiles/cmTC_8c9e9.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c9e9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_8c9e9.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c9e9
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c9e9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_8c9e9.dir/CheckFunctionExists.c.o  -o cmTC_8c9e9 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fedf1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fedf1.dir/build.make CMakeFiles/cmTC_fedf1.dir/build
-make[1]: Entering directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fedf1.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_fedf1.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fedf1
-/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fedf1.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_fedf1.dir/CheckFunctionExists.c.o  -o cmTC_fedf1 -lICE 
-make[1]: Leaving directory '/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ff203/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff203.dir/build.make CMakeFiles/cmTC_ff203.dir/build
+make[1]: Entering directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff203.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_ff203.dir/CheckFunctionExists.c.o   -c /home/luis/Software/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff203
+/home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff203.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_ff203.dir/CheckFunctionExists.c.o  -o cmTC_ff203 -lICE 
+make[1]: Leaving directory '/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

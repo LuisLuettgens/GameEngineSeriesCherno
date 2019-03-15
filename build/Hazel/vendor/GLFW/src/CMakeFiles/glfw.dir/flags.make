@@ -6,7 +6,7 @@ C_FLAGS = -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/include -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/src -I/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/src 
+C_INCLUDES = -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/include -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src -I/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/src 
 
 # Custom flags: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

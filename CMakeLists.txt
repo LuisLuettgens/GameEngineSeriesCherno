@@ -7,6 +7,8 @@ project(GAME_ENGINE_SERIES)
 add_custom_target(GameEngineSeries)
 
 add_subdirectory(Hazel/vendor/GLFW)
+add_subdirectory(Hazel/vendor/GLAD)
+add_subdirectory(Hazel/vendor/imgui)
 add_subdirectory(Hazel)
 add_subdirectory(Sandbox)
 

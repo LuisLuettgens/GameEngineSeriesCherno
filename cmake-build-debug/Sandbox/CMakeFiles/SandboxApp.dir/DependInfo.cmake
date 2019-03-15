@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox/src/SandboxApp.cpp" "/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o"
+  "/home/luis/git/GameEngineSeriesCherno/Sandbox/src/SandboxApp.cpp" "/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Sandbox/CMakeFiles/SandboxApp.dir/src/SandboxApp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

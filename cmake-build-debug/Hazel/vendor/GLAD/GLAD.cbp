@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLAD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Hazel\;CMake Files\Hazel\vendor\;CMake Files\Hazel\vendor\GLFW\;CMake Files\Hazel\vendor\GLFW\CMake\;CMake Files\Hazel\vendor\GLFW\CMake\modules\;CMake Files\Hazel\vendor\GLFW\src\;CMake Files\Hazel\vendor\GLFW\examples\;CMake Files\Hazel\vendor\GLFW\tests\;CMake Files\Hazel\vendor\GLAD\;CMake Files\Hazel\vendor\imgui\;CMake Files\Sandbox\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/lib/libGLAD.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 GLAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/lib/libGLAD.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLAD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/include/KHR/khrplatform.h">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/include/glad/glad.h">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\examples\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLFW\tests\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLAD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\vendor\GLAD\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Hazel\vendor\imgui\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/GameEngineSeriesCherno/Sandbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sandbox\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

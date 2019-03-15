@@ -1,4 +1,4 @@
-# Install script for directory: /home/luis/CLionProjects/GameEngineSeriesCherno/Sandbox
+# Install script for directory: /home/luis/git/GameEngineSeriesCherno/Sandbox
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

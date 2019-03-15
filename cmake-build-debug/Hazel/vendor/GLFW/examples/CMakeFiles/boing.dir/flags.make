@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps -I/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/include 
+C_INCLUDES = -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps -I/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/include 
 

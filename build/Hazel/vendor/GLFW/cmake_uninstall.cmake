@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/install_manifest.txt\"")
+if (NOT EXISTS "/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/install_manifest.txt\"")
 endif()
 
-file(READ "/home/luis/CLionProjects/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/install_manifest.txt" files)
+file(READ "/home/luis/git/GameEngineSeriesCherno/build/Hazel/vendor/GLFW/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

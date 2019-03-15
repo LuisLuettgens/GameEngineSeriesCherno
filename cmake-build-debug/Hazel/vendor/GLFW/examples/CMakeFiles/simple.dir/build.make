@@ -43,10 +43,10 @@ RM = /home/luis/Software/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno
+CMAKE_SOURCE_DIR = /home/luis/git/GameEngineSeriesCherno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug
+CMAKE_BINARY_DIR = /home/luis/git/GameEngineSeriesCherno/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend.make
@@ -59,29 +59,29 @@ include Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/simple.c.o: Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/simple.c.o: ../Hazel/vendor/GLFW/examples/simple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/simple.c.o"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple.dir/simple.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/simple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/simple.c.o"
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple.dir/simple.c.o   -c /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/simple.c
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simple.dir/simple.c.i"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/simple.c > CMakeFiles/simple.dir/simple.c.i
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/simple.c > CMakeFiles/simple.dir/simple.c.i
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simple.dir/simple.c.s"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/simple.c -o CMakeFiles/simple.dir/simple.c.s
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/simple.c -o CMakeFiles/simple.dir/simple.c.s
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/__/deps/glad.c.o: Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/__/deps/glad.c.o: ../Hazel/vendor/GLFW/deps/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/__/deps/glad.c.o"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple.dir/__/deps/glad.c.o   -c /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/__/deps/glad.c.o"
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple.dir/__/deps/glad.c.o   -c /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simple.dir/__/deps/glad.c.i"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c > CMakeFiles/simple.dir/__/deps/glad.c.i
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c > CMakeFiles/simple.dir/__/deps/glad.c.i
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simple.dir/__/deps/glad.c.s"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c -o CMakeFiles/simple.dir/__/deps/glad.c.s
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c -o CMakeFiles/simple.dir/__/deps/glad.c.s
 
 # Object files for target simple
 simple_OBJECTS = \
@@ -100,8 +100,8 @@ Hazel/vendor/GLFW/examples/simple: /usr/lib/x86_64-linux-gnu/librt.so
 Hazel/vendor/GLFW/examples/simple: /usr/lib/x86_64-linux-gnu/libm.so
 Hazel/vendor/GLFW/examples/simple: /usr/lib/x86_64-linux-gnu/libX11.so
 Hazel/vendor/GLFW/examples/simple: Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable simple"
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/git/GameEngineSeriesCherno/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable simple"
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build: Hazel/vendor/GLFW/examples/simple
@@ -109,10 +109,10 @@ Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build: Hazel/vendor/GLFW/exampl
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/build
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/clean:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && $(CMAKE_COMMAND) -P CMakeFiles/simple.dir/cmake_clean.cmake
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples && $(CMAKE_COMMAND) -P CMakeFiles/simple.dir/cmake_clean.cmake
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/clean
 
 Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend:
-	cd /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/CLionProjects/GameEngineSeriesCherno /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples /home/luis/CLionProjects/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/git/GameEngineSeriesCherno/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/git/GameEngineSeriesCherno /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples /home/luis/git/GameEngineSeriesCherno/cmake-build-debug /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples /home/luis/git/GameEngineSeriesCherno/cmake-build-debug/Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Hazel/vendor/GLFW/examples/CMakeFiles/simple.dir/depend
 

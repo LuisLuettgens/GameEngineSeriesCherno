@@ -4,10 +4,10 @@
 Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/__/deps/glad.c.o
  ../Hazel/vendor/GLFW/deps/KHR/khrplatform.h
  ../Hazel/vendor/GLFW/deps/glad/glad.h
- /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
+ /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
 Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o
- /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.c
- /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.h
+ /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.c
+ /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.h
 Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/empty.c.o
  ../Hazel/vendor/GLFW/deps/KHR/khrplatform.h
  ../Hazel/vendor/GLFW/deps/glad/glad.h
@@ -16,4 +16,4 @@ Hazel/vendor/GLFW/tests/CMakeFiles/empty.dir/empty.c.o
  ../Hazel/vendor/GLFW/deps/vulkan/vulkan.h
  ../Hazel/vendor/GLFW/deps/vulkan/vulkan_core.h
  ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
- /home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/empty.c
+ /home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/tests/empty.c

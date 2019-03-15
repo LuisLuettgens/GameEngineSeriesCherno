@@ -140,17 +140,17 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/getopt.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/getopt.c
 getopt.h
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/getopt.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/getopt.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/getopt.h
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -160,9 +160,9 @@ string.h
 glad/glad.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.c
 tinycthread.h
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -180,7 +180,7 @@ process.h
 sys/timeb.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.h
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/deps/tinycthread.h
 time.h
 -
 sys/time.h
@@ -190,7 +190,7 @@ pthread.h
 windows.h
 -
 
-/home/luis/CLionProjects/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/particles.c
+/home/luis/git/GameEngineSeriesCherno/Hazel/vendor/GLFW/examples/particles.c
 stdlib.h
 -
 stdio.h
