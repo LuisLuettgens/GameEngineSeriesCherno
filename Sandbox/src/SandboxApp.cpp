@@ -13,7 +13,7 @@ public:
 
     void OnUpdate() override
     {
-        HZ_INFO("ExampleLayer::OnUpdate");
+        //HZ_INFO("ExampleLayer::OnUpdate");
     }
 
     void OnEvent (Hazel::Event& event)
@@ -28,8 +28,8 @@ class Sandbox : public Hazel::Application
     public:
         Sandbox()
         {
-            //PushLayer(new ExampleLayer());
-            PushLayer(new Hazel::ImGuiLayer());
+            PushLayer(new ExampleLayer());
+            PushOverlay(new Hazel::ImGuiLayer());
         }
 
         ~Sandbox()

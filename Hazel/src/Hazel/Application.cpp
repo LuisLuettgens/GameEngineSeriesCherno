@@ -76,7 +76,7 @@ namespace Hazel
 
     void Application::PushOverlay(Layer *overlay)
     {
-        m_LayerStack.PopOverlay(overlay);
+        m_LayerStack.PushOverlay(overlay);
         overlay->OnAttach();
     }
 

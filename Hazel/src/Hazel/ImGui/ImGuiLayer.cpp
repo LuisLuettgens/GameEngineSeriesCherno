@@ -14,9 +14,9 @@
 namespace Hazel
 {
     ImGuiLayer::ImGuiLayer()
-            : Layer("ImGuiLayer")
+            : Layer("ImGuiLayer"), m_Time(0.0f)
     {
-
+        HZ_INFO("{0}", glGetString(GL_VERSION));
     }
 
     ImGuiLayer::~ImGuiLayer()
